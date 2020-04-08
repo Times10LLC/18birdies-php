@@ -9,8 +9,8 @@ error_reporting(E_ALL);
 <a href="#main" class="sr-only" tabindex="0">Skip to main content</a>
 <nav id="mobile-nav">
   <ul class="mobile-nav">
-    <li><a href="/premium">Premium</a></li>
-    <li><a href="/features">Features</a></li>
+    <li><a href="<?php echo $homeUrl; ?>premium">Premium</a></li>
+    <li><a href="<?php echo $homeUrl; ?>features">Features</a></li>
     <li><a href="#">Tournaments</a></li>
     <li><a href="#">Reviews</a></li>
     <li><a href="#">Blog</a></li>
@@ -25,13 +25,13 @@ error_reporting(E_ALL);
   </div>
 </nav>
 <header>
-  <a data-aos="fade" class="logo" href="/"><?php echo file_get_contents("assets/img/logo-color.svg"); ?></a>
+  <a data-aos="fade" class="logo" href="<?php echo $homeUrl; ?>"><?php echo file_get_contents("assets/img/logo-color.svg"); ?></a>
 
   <nav id="top-menu">
     <div data-aos="fade">
     <ul>
-      <li><a href="/premium">Premium</a></li>
-      <li><a href="/features">Features</a></li>
+      <li><a href="<?php echo $homeUrl; ?>premium">Premium</a></li>
+      <li><a href="<?php echo $homeUrl; ?>features">Features</a></li>
       <li><a href="#">Tournaments</a></li>
       <li><a href="#">Reviews</a></li>
       <li><a href="#">Blog</a></li>

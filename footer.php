@@ -5,7 +5,7 @@
         <h2>Go Premium</h2>
         <p>Unlock your full potential.</p>
       </div>
-      <a href="/premium" class="btn solid">Explore Premium</a>
+      <a href="<?php echo $homeUrl; ?>premium" class="btn solid">Explore Premium</a>
     </div>
   </div>
 </div>
@@ -32,17 +32,17 @@
           <li>
             <a href="#">Company</a>
             <ul class="sub-menu">
-            	<li><a href="/our-story">Our Story</a></li>
+            	<li><a href="#">Our Story</a></li>
             	<li><a href="https://shop.18birdies.com">Shop</a></li>
-            	<li><a href="/press">Press</a></li>
-            	<li><a href="/team">Team</a></li>
-            	<li><a href="/investors-advisors">Investors + Advisors</a></li>
-            	<li><a href="/careers">Careers</a></li>
-            	<li><a href="/partners">Partners</a></li>
+            	<li><a href="#">Press</a></li>
+            	<li><a href="#">Team</a></li>
+            	<li><a href="#">Investors + Advisors</a></li>
+            	<li><a href="#">Careers</a></li>
+            	<li><a href="#">Partners</a></li>
             </ul>
           </li>
           <li>
-            <a href="http://18birdies.test/features/">Features</a>
+            <a href="<?php echo $homeUrl; ?>features">Features</a>
             <ul class="sub-menu">
             	<li><a href="#">Digital Caddy</a></li>
             	<li><a href="#">Courses</a></li>
@@ -53,7 +53,7 @@
           <li>
             <a href="#">Resources</a>
             <ul class="sub-menu">
-            	<li><a href="/contact">Contact Us</a></li>
+            	<li><a href="#">Contact Us</a></li>
             	<li><a href="https://help.18birdies.com/category/42-faqs">FAQs</a></li>
             </ul>
           </li>

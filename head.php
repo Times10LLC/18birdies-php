@@ -1,5 +1,6 @@
 <?php
-if ($_SERVER['REMOTE_ADDR'] == '173.46.64.98') {
+
+if ($_SERVER['SERVER_ADDR'] == '178.128.67.212') {
     $homeUrl = "/18birdies/";
 } else {
     $homeUrl = "/";

@@ -34,7 +34,7 @@ $title = "Home";
           <div data-aos="fade-up">
             <h2>The most advanced digital caddy.</h2>
             <p>Get precise yardage with the most advanced GPS rangefinder that adjusts for slope, weather and altitude.</p>
-            <a class="btn solid" href="/features">More Features</a>
+            <a class="btn solid" href="<?php echo $homeUrl; ?>features">More Features</a>
           </div>
         </div>
         <div class="overlay"></div>
@@ -50,7 +50,7 @@ $title = "Home";
               <div class="content-wrap">
                 <h2>First-ever AI swing analyzer + coach</h2>
                 <p>Breakthrough technology that's changing the way golfers analyze and work on improving their game.</p>
-                <a href="#" class="btn solid">See it in action</a>
+                <a href="<?php echo $homeUrl; ?>ai-coach" class="btn solid">See it in action</a>
               </div>
             </div>
           </div>

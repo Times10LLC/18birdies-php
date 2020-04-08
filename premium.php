@@ -8,7 +8,7 @@ $title = "Premium";
 
   <?php require "head.php"; ?>
 
-  <body class="<?= $page; ?>">
+  <body class="<?= $page; ?> preload">
     <?php require "nav.php"; ?>
       <div class="block block-hero">
           <div class="content">

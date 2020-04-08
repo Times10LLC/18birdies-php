@@ -65,7 +65,7 @@ $title = "Features";
               <span class="category practice-improve"><?php echo file_get_contents("assets/img/practice-improve.svg"); ?>practice and improve</span>
               <h2>Take swing practice to a new level</h2>
               <p>Our revolutionary AI coach will analyze your swing in seconds &mdash; all you need is a phone.</p>
-              <a class="btn solid" href="/ai-coach">See it in action</a>
+              <a class="btn solid" href="<?php echo $homeUrl; ?>ai-coach">See it in action</a>
             </div>
           </div>
         </div>
