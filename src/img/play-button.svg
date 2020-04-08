@@ -1,0 +1,5 @@
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="play-button" fill="#2BB5FF" fill-rule="nonzero">
+      <path d="M28,0 C12.5360941,0 0,12.5360941 0,28 C0,43.4639059 12.5360941,56 28,56 C43.4639059,56 56,43.4639059 56,28 C56,12.5360941 43.4639059,0 28,0 Z M21.4117647,39.4108235 L21.4117647,16.5891765 L41.1764706,28 L21.4117647,39.4108235 Z" id="Shape"></path>
+  </g>
+</svg>

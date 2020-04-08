@@ -1,0 +1,324 @@
+body.ai-coach {
+  main {
+    .block {
+      &.block-hero {
+        overflow: hidden;
+
+        video {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 0;
+          height: 100%;
+          width: auto;
+
+          @media (min-width: 1200px) {
+            width: auto;
+            height: 100%;
+          }
+
+          @media (min-width: 1600px) {
+            width: 100%;
+            height: auto;
+
+          }
+        }
+
+        &:after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          background-color: black;
+          opacity: 0.3;
+          z-index: 1;
+        }
+
+        .content {
+          top: 50%;
+          position: relative;
+          z-index: 2;
+
+          h1 {
+            @media (min-width: 375px) {
+              width: 350px;
+              font-size: 2.8rem;
+              line-height: 2.4rem;
+              margin-bottom: 15px;
+            }
+
+            @media (min-width: 768px) {
+              width: 450px;
+              font-size: 3.5rem;
+              line-height: 2.8rem;
+            }
+          }
+        }
+      }
+
+      &.block-feature-phone {
+        padding: 6rem 2rem;
+        background: #FFF;
+
+        @media (min-width: $medium-mobile) {
+          padding: 8rem 2rem 5.5rem;
+        }
+
+        @media (min-width: 1200px) {
+          padding: 8rem 0 5.5rem;
+        }
+
+        .container {
+          max-width: 1000px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: column;
+
+          @media (min-width: 768px) {
+            flex-direction: row;
+          }
+        }
+
+        &.reverse {
+          .container {
+            @media (min-width: 768px) {
+              flex-direction: row-reverse;
+            }
+
+            .content {
+              p {
+                padding-bottom: 0;
+              }
+            }
+          }
+        }
+
+        &.see-your-progress {
+          .step {
+            span {
+              position: relative;
+              top: 1px;
+            }
+          }
+
+          .content {
+            h2 {
+              max-width: 290px;
+            }
+          }
+        }
+
+        &.analyze-your-swing {
+          .content {
+            h2 {
+              max-width: 275px;
+            }
+
+            p {
+              max-width: 250px;
+            }
+          }
+        }
+
+        .content {
+          padding: 0;
+          width: auto;
+          text-align: center;
+          margin-top: 20px;
+
+          @media (min-width: 768px) {
+            text-align: left;
+            margin-top: 0;
+          }
+
+          h2 {
+            max-width: 260px;
+            @media (min-width: $medium-mobile) {
+              max-width: 300px;
+            }
+          }
+
+          p {
+            max-width: 230px;
+            margin: 0 auto;
+
+            @media (min-width: 768px) {
+              margin: 0;
+            }
+          }
+        }
+
+        .image {
+          width: 100%;
+          @media (min-width: 768px) {
+            width: 350px;
+          }
+
+          @media (min-width: $medium-mobile) {
+            width: 450px;
+          }
+
+          img {
+            display: block;
+            width: 100%;
+          }
+        }
+      }
+
+      &.block-hero-interior {
+        background: url("../img/ai-coach-background.png");
+        background-size: cover;
+        position: relative;
+
+        &:before {
+          content: " ";
+          background-color: black;
+          opacity: 0.3;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+        }
+
+        .step {
+          margin: 0 auto 15px;
+        }
+
+        .content {
+          padding: 6rem 2rem;
+          @media (min-width: 768px) {
+            padding: 16rem 0;
+          }
+          text-align: center;
+
+          h2 {
+            margin: 0 auto;
+            max-width: 600px;
+            color: white;
+          }
+
+          p {
+            margin: 0 auto;
+            max-width: 330px;
+            color: white;
+            padding-bottom: 0;
+          }
+        }
+      }
+
+      &.block-quotes {
+        padding: 6rem 0;
+        text-align: center;
+
+        @media (min-width: 768px) {
+          padding: 8rem 0 4rem;
+        }
+
+        h2 {
+          padding-bottom: 50px;
+        }
+
+        a {
+          display: inline-block;
+        }
+
+        .quote {
+          height: 300px;
+        }
+
+        .quotes-wrap {
+          position: relative;
+
+          // display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+      }
+
+      #quotes-slider-ow {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        // blockquote {
+        //   width: 100%;
+        // }
+
+        .tns-slider {
+          display: flex;
+          margin-bottom: 8rem;
+        }
+
+        .tns-nav {
+          position: absolute;
+          left: 50%;
+          bottom: 4rem;
+          transform: translateX(-50%);
+          z-index: 2;
+          margin: 0;
+        }
+
+        blockquote {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 100%;
+          margin: 0;
+          text-align: left;
+          padding: 30px;
+          border-radius: 4px;
+          background: #FFF;
+          box-shadow: 0 24px 36px 0 rgba(0,0,0,0.05);
+
+          svg {
+            width: 25px;
+            height: 25px;
+            fill: $brand-secondary;
+          }
+
+          img {
+            width: 50px;
+            border-radius: 50%;
+            margin-bottom: 0;
+          }
+
+          p {
+            color: #303030;
+            font-size: 0.85em;
+            line-height: 1.1rem;
+            padding-top: 5px;
+            width: 100%;
+            margin: 0;
+            @media (min-width: 768px) {}
+            //
+            @media (min-width: 1600px) {
+              width: 75%;
+            }
+          }
+
+          footer {
+            display: flex;
+            flex-direction: column;
+
+            cite {
+              display: inline-block;
+              font-style: normal;
+              font-weight: 400;
+              @extend .alt-gothic;
+              margin-top: 10px;
+              font-size: 1.1rem;
+              color: $brand-secondary;
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+    }
+  }
+}

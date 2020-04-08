@@ -1,0 +1,16 @@
+# RewriteEngine On
+# RewriteRule ^story/?$ story.php
+# RewriteRule ^contact/?$ contact.php
+# RewriteRule ^collections/?$ collections.php
+# RewriteRule ^where-to-buy/?$ where-to-buy.php
+
+Options -Multiviews -Indexes +FollowSymLinks
+RewriteEngine On
+# RewriteBase /rewash/
+DirectorySlash Off
+
+# remove trailing slash
+RewriteRule ^(.*)\/(\?.*)?$ $1$2 [R=301,L]
+
+# rewrite /dir/file?query to /dir/file.php?query
+RewriteRule ^([\w\/-]+)(\?.*)?$ $1.php$2 [L,T=application/x-httpd-php]

@@ -1,0 +1,30 @@
+$text-color: white;
+$font-size-base: 13px;
+$container-width: 1200px;
+
+$small-mobile: 375px;
+$medium-mobile: 1024px;
+$large-desktop: 1600px;
+// Basics of a navbar
+$navbar-height: 60px;
+$navbar-margin-bottom: 0;
+$navbar-border-radius: 0;
+
+$overlap-margin: 60px;
+
+$brand-primary: #495965;
+$brand-secondary: #2BB5FE;
+$brand-tertiary: #2276FF;
+
+$border-radius-base: 0;
+$border-radius-large: $border-radius-base;
+$border-radius-small: $border-radius-base;
+
+$plyr-color-main: $brand-primary;
+$fa-font-path: "../fonts";
+
+$yellow: #FED637;
+$orange: #FF9A2C;
+$red: #FF5B5B;
+$green: #2CB052;
+$purple: #9777FF;

@@ -1,0 +1,25 @@
+@import "partials/variables";
+
+// vendor includes
+@import "https://use.typekit.net/gal4ctk.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+@import "../../node_modules/tiny-slider/src/tiny-slider";
+@import "../../node_modules/aos/src/sass/aos";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../../node_modules/magnific-popup/src/css/main";
+@import "../../node_modules/plyr/src/sass/plyr";
+
+// general sheets
+@import "partials/general";
+@import "partials/header";
+@import "partials/footer";
+
+// pages
+@import "pages/home";
+@import "pages/contact";
+@import "pages/features";
+@import "pages/premium";
+@import "pages/ai-coach";

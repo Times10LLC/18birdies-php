@@ -1,0 +1,480 @@
+body.home {
+  #feature-grid {
+    padding: 0;
+
+    div[data-aos] {
+      z-index: 2;
+      position: relative;
+    }
+  }
+
+  .block {
+    position: relative;
+
+    &.block-hero {
+      background-image: url("../img/hero-image.jpg");
+    }
+
+    &.block-stats {
+      background-color: $brand-primary;
+      text-align: center;
+      padding: 5rem 0;
+
+      @media (min-width: 800px) {
+        padding: 200px 0;
+      }
+
+      .stat-wrap {
+        width: 100%;
+
+        @media (min-width: $small-mobile) {
+          width: 90%;
+        }
+        @media (min-width: $medium-mobile) {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+      }
+
+      .stat {
+        display: inline-block;
+        padding: 5px 0 0;
+        width: calc(100% / 3);
+        border-right: 1px solid #D8D8D8;
+        // width: 100%;
+
+        @media (min-width: $medium-mobile) {
+          margin-bottom: 30px;
+          width: 25%;
+          float: left;
+          border-right: 1px dashed #D8D8D8;
+        }
+
+        &.has-one {
+          margin-left: -5px;
+        }
+
+        &:last-of-type {
+          border-right: 0;
+        }
+
+        h2 {
+          font-size: 3rem;
+          line-height: 2rem;
+          margin: 0;
+          text-transform: lowercase;
+          color: #fff;
+
+          @media (min-width: $medium-mobile) {
+            font-size: 6.5rem;
+            line-height: 5rem;
+          }
+
+          span {
+            margin-right: -5px;
+          }
+        }
+
+        small {
+          color: rgba(255, 255, 255, 0.5);
+          font-weight: bold;
+          font-size: 0.6rem;
+          margin-top: 5px;
+          display: inline-block;
+          letter-spacing: 0;
+
+          @media (min-width: $medium-mobile) {
+            letter-spacing: 0.6px;
+            font-size: 0.8rem;
+            margin-top: 0;
+          }
+        }
+
+        p {
+          padding: 0;
+        }
+      }
+    }
+
+    &.block-feature {
+      &.with-phone {
+        background-image: url("../img/topography.png");
+        background-size: cover;
+        background-position: center center;
+        padding-bottom: 8rem;
+
+        @media (min-width: 800px) {
+          padding-bottom: 200px;
+        }
+
+        .phone {
+          top: -240px;
+
+          @media (min-width: $small-mobile) {
+            top: -360px;
+          }
+
+          @media (min-width: $small-mobile) and (max-height: 800px) {
+            top: -320px;
+          }
+
+          @media (min-width: 768px) {
+            top: -460px;
+          }
+
+          @media (min-width: 1200px) and (max-height: 900px) {
+            top: -380px;
+          }
+
+          img {
+            width: 250px;
+
+            @media (min-width: $small-mobile - 1) {
+              width: 300px;
+            }
+
+            @media (min-width: 768px) {
+              width: $small-mobile;
+            }
+            @media (min-width: 1200px) and (max-height: 900px) {
+              width: 300px;
+            }
+          }
+        }
+
+        .item {
+          img {
+            position: relative;
+            z-index: 2;
+            border-radius: 30px;
+            pointer-events: none;
+            user-select: none;
+            width: 225px;
+            top: -229px;
+            margin-bottom: -150px;
+
+            @media (min-width: $small-mobile) {
+              width: 262px;
+              top: -345px;
+              margin-bottom: -260px;
+            }
+
+            @media (min-width: $small-mobile) and (max-height: 800px) {
+              top: -305px;
+              margin-bottom: -220px;
+            }
+
+            @media (min-width: 768px) {
+              top: -440px;
+              width: 325px;
+              margin-bottom: -350px;
+            }
+
+            @media (min-width: 1200px) and (max-height: 900px) {
+              width: 262px;
+              top: -365px;
+              margin-bottom: -280px;
+            }
+          }
+        }
+
+        .overlay {
+          content: "";
+          background-color: black;
+          position: absolute;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          border-radius: 30px;
+          z-index: 1;
+          top: 10px;
+          height: 490px;
+          width: 230px;
+
+          @media (min-width: $small-mobile) {
+            top: -90px;
+            width: 290px;
+            height: 450px;
+          }
+
+          @media (min-width: 768px) {
+            width: 325px;
+            height: 725px;
+          }
+
+          @media (min-width: 1200px) and (max-height: 900px) {
+            width: 290px;
+            height: 450px;
+          }
+        }
+      }
+
+      &.connect {
+        text-align: center;
+        padding: 3rem 0;
+        display: flex;
+        flex-direction: column;
+        @media (min-width: 800px) {
+          padding: 10rem 0;
+          flex-direction: row;
+        }
+
+        .image {
+          width: 90%;
+          margin-bottom: 3rem;
+
+          @media (min-width: 800px) {
+            width: 50%;
+            margin-bottom: 0;
+          }
+
+          img {
+            width: 100%;
+            display: block;
+          }
+        }
+
+        .content {
+          justify-content: center;
+          align-self: center;
+          padding: 0 20px;
+          text-align: center;
+
+          @media (min-width: $medium-mobile) {
+            text-align: left;
+            width: 300px;
+            margin-left: 100px;
+          }
+
+          h2 {
+            font-size: 2.375rem;
+            line-height: 1;
+            margin-bottom: 0;
+            width: 75%;
+            margin: 0 auto;
+
+            @media (min-width: $medium-mobile) {
+              width: 100%;
+              margin: 0;
+            }
+          }
+
+          p {
+            margin-bottom: 10px;
+            width: 260px;
+            @media (min-width: $medium-mobile) {
+              margin-bottom: 30px;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+
+    &.block-reviews {
+      padding: 0;
+      text-align: center;
+
+      a {
+        display: inline-block;
+      }
+
+      .reviews-wrap {
+        background-color: white;
+        position: relative;
+        padding: 5rem 0;
+
+        @media (min-width: 800px) {
+          padding: 0;
+          border-radius: 4px;
+          margin: $overlap-margin * -1 auto 0;
+          height: 700px;
+        }
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+    }
+
+    &#ai-coach,
+    &#discover-courses {
+      border-radius: 4px;
+      position: relative;
+      flex-direction: column;
+
+      @media (min-width: 800px) {
+        flex-direction: row;
+      }
+
+      .content {
+        width: 100%;
+
+        @media (min-width: 800px) {
+          width: 50%;
+        }
+        @media (min-width: 1200px) {
+          width: 55%;
+        }
+
+        .content-wrap {
+          margin: 0 auto;
+
+          @media (min-width: 1200px) {
+            width: 300px;
+          }
+        }
+
+        p {
+          @media (min-width: 1200px) {
+            width: 275px;
+          }
+        }
+      }
+
+      .image {
+        width: 100%;
+        @media (min-width: 800px) {
+          width: 50%;
+        }
+        @media (min-width: 1200px) {
+          width: 45%;
+        }
+      }
+    }
+
+    &#ai-coach {
+      padding-top: $overlap-margin;
+      margin-top: 0;
+
+      @media (min-width: 1024px) {
+        padding-top: 0;
+      }
+
+      @media (min-width: 1200px) {
+        margin-bottom: $overlap-margin;
+        margin-top: $overlap-margin * -1;
+        padding-top: 0;
+      }
+
+      .image {
+        margin-top: $overlap-margin * -2;
+        @media (min-width: $medium-mobile) {
+          margin-top: 0;
+        }
+
+        img {
+          @media (min-width: $medium-mobile) {
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+          }
+        }
+      }
+    }
+
+    &#discover-courses {
+      flex-direction: column-reverse;
+
+      @media (min-width: 800px) {
+        flex-direction: row;
+        margin-bottom: $overlap-margin * -1;
+        z-index: 2;
+      }
+
+      .image {
+        // margin-bottom: 60px;
+
+        img {
+          border-top-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+        }
+
+      }
+    }
+  }
+
+  #reviews-slider-ow {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    // blockquote {
+    //   width: 100%;
+    // }
+    @media (min-width: $medium-mobile) {
+      width: 90%;
+    }
+
+    @media (min-width: 800px) {
+      width: 65%;
+    }
+
+    .tns-nav {
+      position: relative;
+      z-index: 2;
+      margin-top: 0;
+    }
+
+    blockquote {
+      margin-top: 0;
+
+      @media (max-width: 767px) {
+        margin: 0;
+        padding: 0 20px;
+      }
+
+      img {
+        width: 150px;
+        border-radius: 50%;
+        margin-bottom: 0;
+      }
+
+      p {
+        @extend .alt-gothic;
+        color: #222;
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+
+        @media (min-width: 800px) {
+          font-size: 2.25rem;
+          line-height: 2.625rem;
+        }
+      }
+
+      footer {
+        cite {
+          font-style: normal;
+          font-weight: bold;
+          font-weight: 1rem;
+        }
+      }
+    }
+  }
+
+  #feature-slider {
+    > .tns-item {
+      padding-right: 0;
+      // width: 468px;
+    }
+
+  }
+
+  #feature-slider-ow {
+    position: relative;
+    @media (min-width: 1200px) {
+      width: calc(100% / 3);
+    }
+    margin: 0 auto;
+    z-index: 3;
+
+    .tns-nav {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+  }
+
+}
