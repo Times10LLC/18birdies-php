@@ -1,0 +1,45 @@
+body.community {
+  main {
+    .block {
+      &.block-hero {
+        background-image: url("../img/community-hero.jpg");
+
+        .content {
+          h1 {
+            max-width: 280px;
+          }
+        }
+      }
+
+      &.connect-with-golfers {
+        .content {
+          p {
+            padding-bottom: 0;
+          }
+        }
+      }
+
+      &.get-competitive {
+        .content {
+          h2 {
+            padding-bottom: 25px;
+          }
+        }
+      }
+
+      &.block-hero-interior {
+        background-image: url("../img/join-tournament.jpg");
+
+        .content {
+          h2 {
+            max-width: 320px;
+          }
+
+          p {
+            padding-bottom: 35px;
+          }
+        }
+      }
+    }
+  }
+}

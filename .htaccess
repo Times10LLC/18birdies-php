@@ -6,7 +6,7 @@
 
 Options -Multiviews -Indexes +FollowSymLinks
 RewriteEngine On
-# RewriteBase /rewash/
+# RewriteBase /18birdies/
 DirectorySlash Off
 
 # remove trailing slash

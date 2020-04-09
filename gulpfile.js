@@ -64,9 +64,13 @@ gulp.task('fonts', function() {
 gulp.task('build-js', function() {
   return gulp.src(paths.js)
 
+    .pipe(sourcemaps.init())
+
     .pipe(concat('bundle.js'))
 
     .pipe(gulp.dest(paths.jsBuild))
+
+    .pipe(sourcemaps.write())
 
     .pipe(rename('bundle.min.js'))
 

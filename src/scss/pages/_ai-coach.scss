@@ -1,4 +1,5 @@
-body.ai-coach {
+body.ai-coach,
+body.community {
   main {
     .block {
       &.block-hero {
@@ -112,7 +113,8 @@ body.ai-coach {
           }
         }
 
-        &.analyze-your-swing {
+        &.analyze-your-swing,
+        &.connect-with-golfers {
           .content {
             h2 {
               max-width: 275px;

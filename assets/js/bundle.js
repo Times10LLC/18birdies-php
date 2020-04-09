@@ -25,6 +25,7 @@ var main = {
         }
         main.nav();
         main.quotes();
+        main.feed();
         console.log(main.detect());
         AOS.init({
           delay: 200,
@@ -111,6 +112,47 @@ var main = {
       if($("body").hasClass("ai-coach")){
         var quotes = tns({
           container: '#quotes-slider',
+          controls: false,
+          nav: true,
+          navPosition: 'bottom',
+          items: 1,
+          speed: 500,
+          edgePadding: 50,
+          // fixedWidth: 100,
+          autoplayButtonOutput: false,
+          autoplay: false,
+          mouseDrag: true,
+          swipeAngle: false,
+          gutter: 30,
+          // center: true,
+          slideBy: 1,
+          navAsThumbnails: true,
+          preventScrollOnTouch: 'auto',
+          responsive: {
+            340: {
+              edgePadding: 75
+            },
+            768: {
+              items: 2,
+              edgePadding: 150
+            },
+            1024: {
+              items: 3
+            },
+            1200: {
+              items: 4
+            },
+            2000: {
+              items: 6
+            }
+          }
+        });
+      }
+    },
+    feed: function(){
+      if($("#ig-feed").length > 0){
+        var feed = tns({
+          container: '#ig-feed',
           controls: false,
           nav: true,
           navPosition: 'bottom',

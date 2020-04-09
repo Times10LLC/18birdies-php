@@ -695,3 +695,116 @@ form {
     }
   }
 }
+
+.block-ig-feed {
+  padding: 6rem 0;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    padding: 8rem 0 4rem;
+  }
+
+  h2 {
+    padding-bottom: 50px;
+  }
+
+  a {
+    display: inline-block;
+  }
+
+  .post {
+    width: 400px;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .feed-wrap {
+    position: relative;
+
+    // display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+#ig-feed-ow {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  // blockquote {
+  //   width: 100%;
+  // }
+
+  .tns-slider {
+    display: flex;
+    margin-bottom: 8rem;
+  }
+
+  .tns-nav {
+    position: absolute;
+    left: 50%;
+    bottom: 4rem;
+    transform: translateX(-50%);
+    z-index: 2;
+    margin: 0;
+  }
+
+  img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0;
+    text-align: left;
+    border-radius: 0;
+    background: #FFF;
+    box-shadow: 0 24px 36px 0 rgba(0,0,0,0.1);
+
+    svg {
+      width: 25px;
+      height: 25px;
+      fill: $brand-secondary;
+    }
+
+    img {
+      width: 50px;
+      border-radius: 50%;
+      margin-bottom: 0;
+    }
+
+    p {
+      color: #303030;
+      font-size: 0.85em;
+      line-height: 1.1rem;
+      padding-top: 5px;
+      width: 100%;
+      margin: 0;
+      @media (min-width: 768px) {}
+      //
+      @media (min-width: 1600px) {
+        width: 75%;
+      }
+    }
+
+    footer {
+      display: flex;
+      flex-direction: column;
+
+      cite {
+        display: inline-block;
+        font-style: normal;
+        font-weight: 400;
+        @extend .alt-gothic;
+        margin-top: 10px;
+        font-size: 1.1rem;
+        color: $brand-secondary;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

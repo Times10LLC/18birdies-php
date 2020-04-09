@@ -21,7 +21,7 @@
         $internalEmail = "jacob@times10.net";
 
         // Set the email subject.
-        $subject = "Rewash: Contact Form";
+        $subject = "18birdies: Contact Form";
 
         // Build the email content.
 

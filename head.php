@@ -15,6 +15,10 @@ $youtube = "https://www.youtube.com/18birdies";
 $googleapplink = "https://18birdies.app.link/kJ61XNrcLT";
 $appstorelink = "https://18birdies.app.link/3YCa2khcLT";
 
+require "vendor/autoload.php";
+
+$api = new Instagram\Api();
+$api->setUserName('18BirdiesApp');
 ?>
 
 <head>
@@ -50,10 +54,10 @@ $appstorelink = "https://18birdies.app.link/3YCa2khcLT";
   <meta name="twitter:card" value="summary">
 
   <!-- Open Graph data -->
-  <meta property="og:title" content="Rewash" />
+  <meta property="og:title" content="18birdies" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.18birdies.com" />
-  <!-- <meta property="og:image" content="https://www.rewash.com/assets/img" /> -->
+  <!-- <meta property="og:image" content="https://www.18birdies.com/assets/img" /> -->
   <meta property="og:description" content="<?php if(isset($description)) { echo $description; }else{ echo ''; } ?>" />
 
 </head>
