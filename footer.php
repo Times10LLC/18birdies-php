@@ -15,7 +15,7 @@
 <footer>
   <div class="downloads-wrap">
     <div class="container">
-      <img src="assets/img/three-phones-small.png" alt="Three Phones">
+      <img src="assets/img/three-phones.png" alt="Three Phones">
       <h2>get the app</h2>
       <div class="downloads">
         <div class="app-downloads">
@@ -55,6 +55,7 @@
             <ul class="sub-menu">
             	<li><a href="#">Contact Us</a></li>
             	<li><a href="https://help.18birdies.com/category/42-faqs">FAQs</a></li>
+              <li><a href="https://business.18birdies.com/account/login">Log into Business</a></li>
             </ul>
           </li>
         </ul>

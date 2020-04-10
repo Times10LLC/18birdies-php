@@ -13,8 +13,8 @@ $title = "Features";
       <div class="block block-hero">
           <div class="content">
             <div data-aos="fade-up">
-            <h1>Game improvements that work</h1>
-            <p>play. track. practice. share.</p>
+            <h1>Game improvement that works.</h1>
+            <p>play. track. practice. compete.</p>
             <div class="app-downloads">
               <a href="<?php echo $googleapplink; ?>" target=_blank><?php echo file_get_contents("assets/img/google-play.svg"); ?></a>
               <a href="<?php echo $appstorelink; ?>" target=_blank><?php echo file_get_contents("assets/img/app-store.svg"); ?></a>
@@ -32,7 +32,7 @@ $title = "Features";
             <span class="category"><?php echo file_get_contents("assets/img/play-track.svg"); ?>play and track</span>
             <h2>Always play your best round with the world’s smartest digital caddy</h2>
             <p>Wind speeds, eleveation, temperature, rain. Take the guesswork out of your golf game and power your performance with accurate distances, club recommedations, and more.</p>
-            <a class="btn solid" href="/premium">See all GPS Features</a>
+            <a class="btn solid" href="/premium">Discover GPS</a>
           </div>
         </div>
       </div>
@@ -47,7 +47,7 @@ $title = "Features";
           <div class="content container">
             <div data-aos="fade-up">
               <span class="category"><?php echo file_get_contents("assets/img/play-track.svg"); ?>play and track</span>
-              <h2>Measure your performance & take your game further</h2>
+              <h2>Measure your performance</h2>
               <p>Track your score and stats during or after your round. We’ll crunch the numbers and let you know where you can improve.</p>
             </div>
           </div>
@@ -63,9 +63,9 @@ $title = "Features";
           <div class="content">
             <div data-aos="fade-up">
               <span class="category practice-improve"><?php echo file_get_contents("assets/img/practice-improve.svg"); ?>practice and improve</span>
-              <h2>Take swing practice to a new level</h2>
-              <p>Our revolutionary AI coach will analyze your swing in seconds &mdash; all you need is a phone.</p>
-              <a class="btn solid" href="<?php echo $homeUrl; ?>ai-coach">See it in action</a>
+              <h2>Improve faster with AI Coach</h2>
+              <p>Take swing practice to another level with our game-changing AI-powered swing analysis and coaching system.</p>
+              <a class="btn solid" href="<?php echo $homeUrl; ?>ai-coach">See How It Works</a>
             </div>
           </div>
         </div>
@@ -74,12 +74,12 @@ $title = "Features";
       <div class="block block-feature exercises">
         <div data-aos="fade-up" style="position:relative;z-index:2;">
           <div class="container content-wrap">
-            <a href="https://vimeo.com/401107608" class="open-video" title="Open Exercise Video"><?php echo file_get_contents("assets/img/play-button.svg"); ?></a>
+            <a href="https://vimeo.com/406351507" class="open-video" title="Open Exercise Video"><?php echo file_get_contents("assets/img/play-button.svg"); ?></a>
             <div class="inner-content-wrap">
               <div class="content">
                   <span class="category practice-improve"><?php echo file_get_contents("assets/img/practice-improve.svg"); ?>practice and improve</span>
-                  <h2>Exercises and drills personalized for your swing.</h2>
-                  <p>Get personalized drill recommendations to target your trouble spots &mdash; it’s the fastest way to see improvement.</p>
+                  <h2>Practice anytime, anywhere</h2>
+                  <p>Work on your swing with personalized drills from our AI Coach, or tap into everyday game improvement videos for even more practice.</p>
               </div>
             </div>
             <div class="image">
@@ -96,7 +96,7 @@ $title = "Features";
           </div>
           <div class="content">
             <div data-aos="fade-up">
-              <span class="category"><?php echo file_get_contents("assets/img/review-compare.svg"); ?>review and compare</span>
+              <span class="category"><?php echo file_get_contents("assets/img/review-compare.svg"); ?>review and compete</span>
               <h2>Know your game</h2>
               <p>Finish each round to know what to work on next.</p>
             </div>
@@ -108,8 +108,8 @@ $title = "Features";
         <div class="container">
           <div class="content">
             <div data-aos="fade-up">
-              <span class="category"><?php echo file_get_contents("assets/img/review-compare.svg"); ?>review and compare</span>
-              <h2>Compare and compete against other golfers.</h2>
+              <span class="category"><?php echo file_get_contents("assets/img/review-compare.svg"); ?>review and compete</span>
+              <h2>Benchmark your performance against others.</h2>
               <p>See how your game measures up against other golfers at the courses you play.</p>
             </div>
           </div>

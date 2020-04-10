@@ -6,14 +6,24 @@ body.community {
 
         .content {
           h1 {
-            max-width: 330px;
+            max-width: 310px;
+            @media (min-width: 768px) {
+              max-width: 330px;
+            }
           }
         }
       }
 
-      &.connect-with-golfers {
+      &.block-feature-phone.connect-with-golfers {
         .content {
+          h2 {
+            @media (max-width: 767px) {
+              margin: 0 auto;
+            }
+          }
+
           p {
+            max-width: 330px;
             padding-bottom: 0;
           }
         }

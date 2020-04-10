@@ -13,7 +13,7 @@ $title = "Premium";
       <div class="block block-hero">
           <div class="content">
             <div data-aos="fade-up">
-            <h1>Start your free trial of premium</h1>
+            <h1>Go further with premium</h1>
           </div>
         </div>
       </div>
@@ -21,8 +21,8 @@ $title = "Premium";
       <div class="block block-plans">
         <div data-aos="fade-up">
         <div class="content">
-          <h2>Choose your plan</h2>
-          <p>Next generation of technology to help you take your game to the next level!</p>
+          <h2>Choose Your Plan</h2>
+          <p>Premium Members get access to the most powerful game improvement tools available to golfers &mdash; for both on and off the course.</p>
           <div class="plans">
             <a href="#" class="plan orange-bg">
               <p>14 days free</p>
@@ -30,6 +30,7 @@ $title = "Premium";
                 <div class="price">$99.99 <small>/ year</small></div>
                 <div class="icon"><?php echo file_get_contents("assets/img/flag.svg"); ?></div>
               </div>
+              <div class="banner">Best Value</div>
             </a>
             <a href="#" class="plan">
               <p>7 days free</p>
@@ -45,7 +46,6 @@ $title = "Premium";
                 <div class="price">$2.99 <small>/ week</small></div>
                 <div class="icon"><?php echo file_get_contents("assets/img/crossed-clubs.svg"); ?></div>
               </div>
-              <div class="banner">Best Value</div>
             </a>
           </div>
         </div>
@@ -54,7 +54,7 @@ $title = "Premium";
 
       <div class="block block-benefits">
         <div class="content container">
-          <h2>Benefits with Premium</h2>
+          <h2>Premium Member Benefits</h2>
           <ul>
             <li data-aos="fade-up">
               <h3><?php echo file_get_contents("assets/img/checkmark.svg"); ?>Caddy+</h3>

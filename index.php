@@ -14,7 +14,6 @@ $title = "Home";
           <div class="content">
             <div data-aos="fade-up" data-aos-delay="600">
               <h1>Not your average free golf app.</h1>
-              <p>Join 1.8 million golfers using 18Birdies to improve their game and connect with a community like no other &mdash; while they're on and off the course.</p>
               <div class="app-downloads">
                 <a href="<?php echo $googleapplink; ?>" target=_blank><?php echo file_get_contents("assets/img/google-play.svg"); ?></a>
                 <a href="<?php echo $appstorelink; ?>" target=_blank><?php echo file_get_contents("assets/img/app-store.svg"); ?></a>
@@ -26,15 +25,15 @@ $title = "Home";
       <div class="block block-feature with-phone">
         <div class="phone"><img src="assets/img/iphone-transparent.png" width="375px" alt="Phone Border"></div>
         <div class="slider" id="feature-slider">
-          <div class="item"><img src="assets/img/practice.png" width="325px" alt="Practice Screen"></div>
-          <div class="item"><img src="assets/img/lessons.png" width="325px" alt="Lessons Screen"></div>
-          <div class="item"><img src="assets/img/course.png" width="325px" alt="Golf Course Map"></div>
+          <div class="item"><img src="assets/img/screenshot-swing-analyzer.jpg" width="325px" alt="Swing Analyzer"></div>
+          <div class="item"><img src="assets/img/screenshot-stats.jpg" width="325px" alt="Stats"></div>
+          <div class="item"><img src="assets/img/screenshot-gps.jpg" width="325px" alt="GPS"></div>
         </div>
         <div class="content">
           <div data-aos="fade-up">
-            <h2>The most advanced digital caddy.</h2>
-            <p>Get precise yardage with the most advanced GPS rangefinder that adjusts for slope, weather and altitude.</p>
-            <a class="btn solid" href="<?php echo $homeUrl; ?>features">More Features</a>
+            <h2>The #1 rated digital caddy</h2>
+            <p>Get the precise yardages with the most advanced mobile GPS rangefinder. Caddy+ adjusts for wind speeds, elevation, temperature and rain – powering your rounds with accurate distances, clubs recommendations and more.</p>
+            <a class="btn solid" href="<?php echo $homeUrl; ?>features">See More Features</a>
           </div>
         </div>
         <div class="overlay"></div>
@@ -44,13 +43,13 @@ $title = "Home";
         <div data-aos="fade-up">
           <div class="block block-feature half-half" id="ai-coach">
             <div class="image">
-              <img src="assets/img/ai-coach.png" alt="Golf green with golf ball and putter">
+              <img src="assets/img/ai-coach.jpg" alt="Golf green with golf ball and putter">
             </div>
             <div class="content">
               <div class="content-wrap">
-                <h2>First-ever AI swing analyzer + coach</h2>
+                <h2>AI-Powered swing analyzer & coach</h2>
                 <p>Breakthrough technology that's changing the way golfers analyze and work on improving their game.</p>
-                <a href="<?php echo $homeUrl; ?>ai-coach" class="btn solid">See it in action</a>
+                <a href="<?php echo $homeUrl; ?>ai-coach" class="btn solid">See It In Action</a>
               </div>
             </div>
           </div>
@@ -59,8 +58,8 @@ $title = "Home";
           <div class="block block-feature half-half" id="discover-courses">
             <div class="content">
               <div class="content-wrap">
-                <h2>Discover courses + book tee times</h2>
-                <p>See course ratings from the community and book your next tee time in seconds.</p>
+                <h2>Discover courses & book tee times</h2>
+                <p>View course reviews from other golfers, and book your next tee time &mdash; all in one app.</p>
                 <a href="#" class="btn solid">View Courses</a>
               </div>
             </div>
@@ -127,11 +126,10 @@ $title = "Home";
                 </blockquote>
               </div>
             </div>
-            <a href="#" class="btn solid">Read All Reviews</a>
+            <a href="https://apps.apple.com/us/app/18birdies-golf-gps-scorecard/id892700751" target=_blank class="btn solid">See More Reviews</a>
           </div>
         </div>
       </div>
-
 
       <div class="block block-feature connect">
         <div class="image">
@@ -139,11 +137,18 @@ $title = "Home";
         </div>
         <div class="content">
           <div data-aos="fade-up" data-aos-delay="200">
-            <h2>Connect, compare and compete.</h2>
-            <p>Get swing tips, celebrate wins and compete in virtual tournaments no matter where you are in the world.</p>
+            <h2>Join the community</h2>
+            <p>Connect with other golfers, compare stats and compete in tournaments, no matter where you are in the world.</p>
             <a href="#" class="btn solid">See More</a>
           </div>
         </div>
       </div>
+
+      <?php
+
+      include "ig-feed.php";
+
+      ?>
+
 
 <?php require "footer.php"; ?>

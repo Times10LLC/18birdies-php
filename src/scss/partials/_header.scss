@@ -326,7 +326,7 @@ body {
           }
         }
 
-        &.current_page_item {
+        &.active {
           a {
             &:after {
               transition: all 200ms ease-in;

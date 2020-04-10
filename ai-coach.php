@@ -15,10 +15,7 @@ $title = "AI Coach";
           <div class="content">
             <div data-aos="fade-up">
             <h1>Swing practice will never be the same</h1>
-            <div class="app-downloads">
-              <a href="<?php echo $googleapplink; ?>" target=_blank><?php echo file_get_contents("assets/img/google-play.svg"); ?></a>
-              <a href="<?php echo $appstorelink; ?>" target=_blank><?php echo file_get_contents("assets/img/app-store.svg"); ?></a>
-            </div>
+            <a href="https://vimeo.com/406335986" class="btn solid open-video" title="Open AI Coach Video">Watch Full Video</a>
           </div>
         </div>
       </div>
@@ -31,9 +28,9 @@ $title = "AI Coach";
           <div class="content">
             <div data-aos="fade-up">
               <div class="step"><span>01</span></div>
-              <h2>Analyze your swing in seconds</h2>
-              <p>Instant self-assessment anytime, anywhere. All you need is a phone (and good lighting).</p>
-              <a class="btn solid" href="#">Try it now</a>
+              <h2>Analyze your swing in minutes</h2>
+              <p>Get instant feedback anytime, anywhere and with our without a club. All you need is your phone and the 18Birdies AI Coach.</p>
+              <a class="btn solid" href="#">Try It Now</a>
             </div>
           </div>
         </div>
@@ -43,8 +40,8 @@ $title = "AI Coach";
         <div class="content">
           <div data-aos="fade-up">
             <div class="step"><span>02</span></div>
-            <h2>Get a personalized drill plan for exactly what you need to improve.</h2>
-            <p>Track your score and status during or after your round. We'll crunch the numbers and let you know where you can improve.</p>
+            <h2>See exactly what you need to work on to improve.</h2>
+            <p>The AI Coach will show you what your strengths are, and exactly where you need to improve.</p>
           </div>
         </div>
       </div>
@@ -57,8 +54,8 @@ $title = "AI Coach";
           <div class="content">
             <div data-aos="fade-up">
               <div class="step"><span>03</span></div>
-              <h2>See your progress in just weeks.</h2>
-              <p>Our revolutionary AI coach will analyze your swing in seconds &mdash; all you need is a phone.</p>
+              <h2>Drill plans, custom fit for your swing</h2>
+              <p>Short and simple drills that you can do at home and take to the range.</p>
             </div>
           </div>
         </div>
@@ -67,7 +64,7 @@ $title = "AI Coach";
       <div class="block block-quotes">
         <div data-aos="fade-up" data-aos-delay="200">
           <div class="quotes-wrap">
-            <h2>Reviews</h2>
+            <h2>What golfers are saying</h2>
             <div class="slider" id="quotes-slider">
               <div class="quote">
                 <blockquote>

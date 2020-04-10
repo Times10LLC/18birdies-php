@@ -34,8 +34,8 @@ var main = {
           duration: 600
         });
 
-        var player = new Plyr('#player');
-
+        // var player = new Plyr('#player');
+        //
         $(".open-video").magnificPopup({
           type: 'iframe',
           mainClass: 'mfp-fade',

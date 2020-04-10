@@ -57,11 +57,4 @@ $title = "Community";
       </div>
     </div>
 
-
-    <?php
-
-    include "ig-feed.php";
-
-    ?>
-
 <?php require "footer.php"; ?>

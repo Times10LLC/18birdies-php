@@ -22,7 +22,7 @@ $posts = $feed->medias;
         }
       ?>
         <div class="post">
-          <a href="<?= $post->link; ?>"><img src="<?= $imgUrl; ?>"></a>
+          <a href="<?= $post->link; ?>" target=_blank><img src="<?= $imgUrl; ?>"></a>
         </div>
       <?php
       }

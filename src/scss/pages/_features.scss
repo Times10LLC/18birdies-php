@@ -434,9 +434,7 @@ body.features {
         &.ai-coach {
           .content {
             h2 {
-              @media (max-width: 767px) {
-                max-width: 260px;
-              }
+              max-width: 260px;
             }
           }
         }
