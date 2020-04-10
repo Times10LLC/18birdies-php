@@ -47,7 +47,7 @@
             	<li><a href="#">Digital Caddy</a></li>
             	<li><a href="#">Courses</a></li>
             	<li><a href="#">Tournaments</a></li>
-            	<li><a href="#">Community</a></li>
+            	<li><a href="<?php echo $homeUrl; ?>community">Community</a></li>
             </ul>
             </li>
           <li>
