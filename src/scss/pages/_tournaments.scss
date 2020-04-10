@@ -2,6 +2,12 @@ body.tournaments {
   main {
     .block {
       &.block-hero {
+        background-image: url("../img/tournaments-hero.jpg");
+
+        &:after {
+          opacity: 0.5;
+        }
+
         .content {
           h1 {
             max-width: 380px;
@@ -149,8 +155,12 @@ body.tournaments {
 
       &.block-customers {
         background-color: #FFF;
-        padding: 8rem 0;
+        padding: 6rem 2rem;
         text-align: center;
+
+        @media (min-width: 1200px) {
+          padding: 8rem 0;
+        }
 
         h2 {
           margin-bottom: 40px;
@@ -162,19 +172,33 @@ body.tournaments {
         }
 
         div.customer {
-          padding: 50px 50px 20px;
-          margin: 0 10px;
+          padding: 30px 10px 20px;
+          margin: 10px;
           border-radius: 16px;
           border: 1px solid #CFCFCF;
           text-align: center;
           width: calc(100% / 2 - 20px);
 
+          @media (min-width: 1024px) {
+            padding: 50px 50px 20px;
+          }
+
           @media (min-width: 768px) {
             width: calc(100% / 3 - 20px);
+            margin-top: 0;
+            padding: 30px 30px 20px;
+          }
+
+          @for $i from 1 through 20 {
+            &:nth-child(#{$i})[data-aos].aos-animate {
+              transition-delay: $i * 100ms;
+            }
           }
 
           &:nth-child(n + 4) {
-            margin-top: 20px;
+            @media (min-width: 768px) {
+              margin-top: 10px;
+            }
           }
 
           p {
@@ -187,8 +211,12 @@ body.tournaments {
 
           img {
             display: inline-block;
-            width: 150px;
+            width: 100px;
             margin-bottom: 30px;
+
+            @media (min-width: 768px) {
+              width: 150px;
+            }
           }
         }
       }

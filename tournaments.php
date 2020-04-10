@@ -79,27 +79,27 @@ $title = "Tournaments";
       <div class="container">
         <h2>Featured Customers</h2>
         <div class="customer-wrap">
-          <div class="customer">
+          <div class="customer" data-aos="fade-up">
             <img src="assets/img/tony-finau.jpg" alt="Tony Finau Foundation Golf Classic">
             <p>Tony Finau Foundation Golf Classic</p>
           </div>
-          <div class="customer">
+          <div class="customer" data-aos="fade-up">
             <img src="assets/img/pga-memes.jpg" alt="PGA Memes Challenge">
             <p>PGA Memes Challenge</p>
           </div>
-          <div class="customer">
+          <div class="customer" data-aos="fade-up">
             <img src="assets/img/autism-ribbon.jpg" alt="Els for Autism Golf Challenge">
             <p>Els for Autism Golf Challenge</p>
           </div>
-          <div class="customer">
+          <div class="customer" data-aos="fade-up">
             <img src="assets/img/sf-mga.jpg" alt="Mediocre Golf Association">
             <p>Mediocre Golf Association</p>
           </div>
-          <div class="customer">
+          <div class="customer" data-aos="fade-up">
             <img src="assets/img/american-century.jpg" alt="American Century Classic">
             <p>American Century Classic</p>
           </div>
-          <div class="customer">
+          <div class="customer" data-aos="fade-up">
             <img src="assets/img/derek-jeter.jpg" alt="Derek Jeter Celebrity Invitational">
             <p>Derek Jeter Celebrity Invitational</p>
           </div>
