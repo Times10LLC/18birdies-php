@@ -1,0 +1,197 @@
+body.tournaments {
+  main {
+    .block {
+      &.block-hero {
+        .content {
+          h1 {
+            max-width: 380px;
+          }
+
+          p {
+            max-width: 320px;
+          }
+        }
+      }
+
+      &.block-feature-phone {
+        background: none;
+
+        &.go-virtual {
+          .content {
+            p {
+              max-width: 290px;
+
+              &:last-of-type {
+                padding-bottom: 25px;
+              }
+            }
+          }
+        }
+      }
+
+      &.block-benefits {
+        padding: 6rem 0;
+        background-color: white;
+
+        @media (min-width: 768px) {
+          padding: 8rem 0;
+        }
+
+        .content {
+          padding: 0 2rem;
+
+          h2 {
+            text-align: center;
+            margin-bottom: 60px;
+          }
+
+          ul {
+            @media (min-width: 1024px) {
+              // position: relative;
+              // left: 65px;
+            }
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+
+            li {
+              width: 100%;
+              text-align: center;
+              margin-bottom: 30px;
+              @media (min-width: 768px) {
+                width: calc(100% / 3);
+                margin-bottom: 50px;
+              }
+
+              @for $i from 1 through 20 {
+                &:nth-child(#{$i})[data-aos].aos-animate {
+                  transition-delay: $i * 100ms;
+                }
+              }
+
+              &:last-of-type {
+                margin-bottom: 0;
+              }
+
+              @media (min-width: 768px) {
+                &:nth-child(n + 4) {
+                  margin-bottom: 0;
+                }
+
+                &:nth-of-type(3) {
+                  p {
+                    width: 69%;
+                  }
+                }
+
+                &:first-of-type {
+                  p {
+                    width: 60%;
+                  }
+                }
+
+                &:nth-of-type(4) {
+                  p {
+                    width: 50%;
+                  }
+                }
+
+                &:nth-of-type(5) {
+                  p {
+                    width: 45%;
+                  }
+                }
+
+                &:nth-of-type(6) {
+                  p {
+                    width: 70%;
+                  }
+                }
+              }
+
+              h3 {
+                margin-top: 0;
+                margin-bottom: 10px;
+                justify-content: center;
+                text-align: center;
+                font-size: 1.5rem;
+                height: 21px;
+                line-height: 24px;
+              }
+
+              svg {
+                display: inline-block;
+                margin: 0 auto 10px;
+                height: 21px;
+                width: auto;
+                margin-right: 5px;
+              }
+
+              p {
+                padding-top: 0;
+                padding-bottom: 0;
+                line-height: 1.4;
+                font-size: 0.85rem;
+                margin: 0 auto;
+                width: 60%;
+                text-align: center;
+
+                @media (min-width: 768px) {
+                  width: 63%;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &.block-customers {
+        background-color: #FFF;
+        padding: 8rem 0;
+        text-align: center;
+
+        h2 {
+          margin-bottom: 40px;
+        }
+
+        .customer-wrap {
+          display: flex;
+          flex-wrap: wrap;
+        }
+
+        div.customer {
+          padding: 50px 50px 20px;
+          margin: 0 10px;
+          border-radius: 16px;
+          border: 1px solid #CFCFCF;
+          text-align: center;
+          width: calc(100% / 2 - 20px);
+
+          @media (min-width: 768px) {
+            width: calc(100% / 3 - 20px);
+          }
+
+          &:nth-child(n + 4) {
+            margin-top: 20px;
+          }
+
+          p {
+            padding: 0;
+            line-height: 1;
+            font-size: 0.7rem;
+            color: black;
+            font-weight: 700;
+          }
+
+          img {
+            display: inline-block;
+            width: 150px;
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+}

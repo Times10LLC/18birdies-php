@@ -2,8 +2,8 @@
   <div class="container">
     <div class="premium-wrap">
       <div class="content">
-        <h2>Go Premium</h2>
-        <p>Unlock your full potential.</p>
+        <h2>Go further with premium membership</h2>
+        <p>Achieve more with each and every round you play.</p><p>Go Premium to get full access to our most advanced on-course and improvement features.</p>
       </div>
       <a href="<?php echo $homeUrl; ?>premium" class="btn solid">Explore Premium</a>
     </div>

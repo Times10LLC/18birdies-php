@@ -528,7 +528,7 @@ div.link-header {
 
       @media (min-width: $medium-mobile) {
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-between;
       }
     }
@@ -536,16 +536,29 @@ div.link-header {
     .content {
       h2 {
         color: white;
-        margin: 0;
+        margin: 0 auto;
         line-height: 1;
+        max-width: 300px;
+        @media (min-width: 1024px) {
+          margin: 0;
+        }
       }
 
       p {
+        max-width: 480px;
         color: white;
-        margin: 0;
-        padding-bottom: 30px;
+        margin: 0 auto;
+        padding-bottom: 0;
         @media (min-width: 1024px) {
-          padding-bottom: 0;
+          margin: 0;
+        }
+
+        &:last-of-type {
+          padding-top: 0;
+          padding-bottom: 30px;
+          @media (min-width: 1024px) {
+            padding-bottom: 0;
+          }
         }
       }
     }
@@ -706,6 +719,23 @@ form {
 
   h2 {
     padding-bottom: 50px;
+
+    small {
+      display: block;
+
+      a {
+        color: $brand-secondary;
+        text-decoration: none;
+        font-size: 75%;
+        transition: color 200ms ease-in;
+
+        &:hover,
+        &:visited {
+          transition: color 200ms ease-in;
+          color: $brand-primary;
+        }
+      }
+    }
   }
 
   a {

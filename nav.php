@@ -11,7 +11,7 @@ error_reporting(E_ALL);
   <ul class="mobile-nav">
     <li><a href="<?php echo $homeUrl; ?>premium">Premium</a></li>
     <li><a href="<?php echo $homeUrl; ?>features">Features</a></li>
-    <li><a href="#">Tournaments</a></li>
+    <li><a href="<?php echo $homeUrl; ?>tournaments">Tournaments</a></li>
     <li><a href="#">Reviews</a></li>
     <li><a href="#">Blog</a></li>
     <li><a href="https://help.18birdies.com" target=_blank>Support</a></li>
@@ -32,7 +32,7 @@ error_reporting(E_ALL);
     <ul>
       <li><a href="<?php echo $homeUrl; ?>premium">Premium</a></li>
       <li><a href="<?php echo $homeUrl; ?>features">Features</a></li>
-      <li><a href="#">Tournaments</a></li>
+      <li><a href="<?php echo $homeUrl; ?>tournaments">Tournaments</a></li>
       <li><a href="#">Reviews</a></li>
       <li><a href="#">Blog</a></li>
       <li><a href="https://help.18birdies.com" target=_blank>Support</a></li>

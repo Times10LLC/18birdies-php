@@ -10,7 +10,7 @@ $posts = $feed->medias;
 <div class="block block-ig-feed">
   <div data-aos="fade-up" data-aos-delay="200">
     <div class="feed-wrap">
-      <h2>From our Instagram</h2>
+      <h2>Follow us on Instagram</h2>
       <div class="slider" id="ig-feed">
       <?php
       foreach ($posts as $post) {

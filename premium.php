@@ -58,7 +58,7 @@ $title = "Premium";
           <ul>
             <li data-aos="fade-up">
               <h3><?php echo file_get_contents("assets/img/checkmark.svg"); ?>Caddy+</h3>
-              <p>18Birdies can rcommend clubs while considering wind and course elevation.</p>
+              <p>18Birdies can recommend clubs while considering wind and course elevation.</p>
             </li>
             <li data-aos="fade-up">
               <h3><?php echo file_get_contents("assets/img/checkmark.svg"); ?>Partner Discounts</h3>
