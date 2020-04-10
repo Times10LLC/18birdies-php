@@ -10,18 +10,6 @@ body.features {
       &.block-hero {
         background-image: url("../img/features-hero.png");
 
-        &:after {
-          content: "";
-          position: absolute;
-          top: 0;
-          right: 0;
-          bottom: 0;
-          left: 0;
-          background-color: black;
-          opacity: 0.3;
-          z-index: 1;
-        }
-
         .content {
           z-index: 2;
 

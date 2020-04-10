@@ -26,6 +26,8 @@ var main = {
         main.nav();
         main.quotes();
         main.feed();
+        main.press();
+
         console.log(main.detect());
         AOS.init({
           delay: 200,
@@ -73,6 +75,47 @@ var main = {
         $("#mobile-nav").removeClass("open");
         bodyScrollLock.clearAllBodyScrollLocks();
       });
+    },
+    press: function(){
+      if($("body").hasClass("our-story")){
+        var press = tns({
+          container: '#press-slider',
+          controls: false,
+          nav: true,
+          navPosition: 'bottom',
+          items: 1,
+          speed: 500,
+          // fixedWidth: 100,
+          autoplayButtonOutput: false,
+          autoplay: false,
+          mouseDrag: true,
+          swipeAngle: false,
+          gutter: 0,
+          // center: true,
+          slideBy: 1,
+          navAsThumbnails: true,
+          preventScrollOnTouch: 'auto',
+          responsive: {
+            768: {
+              edgePadding: 175,
+              items: 1,
+              gutter: 40
+            },
+            1024: {
+              edgePadding: 300,
+              items: 1
+            },
+            1200: {
+              edgePadding: 500,
+              items: 1,
+            },
+            2000: {
+              items: 2
+            }
+          }
+        });
+      };
+
     },
     slider: function(){
       var slider = tns({

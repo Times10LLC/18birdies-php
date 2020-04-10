@@ -1,0 +1,219 @@
+body.our-story {
+  main {
+    .block {
+      &.block-hero {
+        background-image: url("../img/company-hero.jpg");
+
+        .content {
+          top: 50%;
+          transform: translate(-50%, -50%);
+
+          h1 {
+            max-width: 280px;
+          }
+        }
+      }
+
+      &.block-text {
+        text-align: center;
+        padding: 6rem 2rem;
+
+        @media (min-width: 1024px) {
+          padding: 8rem 0;
+        }
+
+        .content {
+          h2 {
+            line-height: 1;
+          }
+
+          h3 {
+            color: $brand-secondary;
+            margin: 25px auto 0;
+            line-height: 1;
+            font-size: 1.8rem;
+            max-width: 300px;
+
+            @media (min-width: 768px) {
+              max-width: none;
+            }
+          }
+
+          p {
+            margin: 0 auto;
+            max-width: 620px;
+
+            &:last-of-type {
+              padding-top: 0;
+              padding-bottom: 0;
+            }
+          }
+        }
+
+        &#mission {
+          background-image: url("../img/mission.jpg");
+          background-size: cover;
+          position: relative;
+          z-index: 0;
+          background-position: 95% center;
+
+          &:after {
+            content: "";
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-color: #000;
+            opacity: 0.4;
+
+            @media (min-width: 1024px) {
+              opacity: 0.2;
+            }
+          }
+
+          .content {
+            position: relative;
+            z-index: 2;
+
+            h2 {
+              color: white;
+              margin-bottom: 25px;
+            }
+
+            p {
+              color: white;
+              max-width: 670px;
+            }
+          }
+        }
+      }
+
+      &.block-callout {
+        padding: 6rem 2rem;
+        @media (min-width: 1200px) {
+          padding: 8rem 0;
+        }
+
+        .content-wrap {
+          display: flex;
+          justify-content: space-evenly;
+          flex-direction: column-reverse;
+          align-items: center;
+
+          @media (min-width: 768px) {
+            flex-direction: row;
+          }
+
+          .content {
+            text-align: center;
+
+            @media (min-width: 768px) {
+              text-align: left;
+            }
+
+            p {
+              max-width: 300px;
+            }
+          }
+
+          .image {
+            width: 100%;
+            margin-bottom: 30px;
+
+            @media (min-width: 768px) {
+              width: 300px;
+              margin-bottom: 0;
+            }
+
+            @media (min-width: 1200px) {
+              width: 500px;
+            }
+
+            img {
+              width: 100%;
+              height: auto;
+            }
+          }
+        }
+      }
+
+      &.block-press {
+        padding: 6rem 1rem;
+        text-align: center;
+        background-color: white;
+
+        @media (min-width: 400px) {
+          padding: 6rem 0;
+        }
+
+        @media (min-width: 1200px) {
+          padding: 8rem 0;
+        }
+
+        h2 {
+          margin-bottom: 30px;
+        }
+
+        .tns-nav {
+          margin: 30px 0 0;
+        }
+
+        #press-slider {
+          .article {
+            text-align: center;
+            border-radius: 16px;
+            border: 1px solid #CFCFCF;
+            padding: 20px;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            @media (min-width: 1200px) {
+              height: 425px;
+            }
+
+            .footer {
+              margin-top: auto;
+            }
+
+            @media (min-width: 400px) {
+              padding: 30px;
+            }
+
+            @media (min-width: 768px) {
+              padding: 50px;
+            }
+
+            h3 {
+              margin: 0;
+              font-size: 1.8rem;
+            }
+
+            .date {
+              margin-bottom: 30px;
+            }
+
+            .press-logo {
+              margin-bottom: 15px;
+
+              svg {
+                height: 25px;
+                width: auto;
+              }
+            }
+
+            p {
+              margin: 0 auto;
+              @media (min-width: 1200px) {
+                max-width: 600px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

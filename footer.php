@@ -32,7 +32,7 @@
           <li>
             <a href="#">Company</a>
             <ul class="sub-menu">
-            	<li><a href="#">Our Story</a></li>
+            	<li><a href="<?php echo $homeUrl;?>our-story">Our Story</a></li>
             	<li><a href="https://shop.18birdies.com">Shop</a></li>
             	<li><a href="#">Press</a></li>
             	<li><a href="#">Team</a></li>
