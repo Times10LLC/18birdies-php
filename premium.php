@@ -58,35 +58,35 @@ $title = "Premium";
           <ul>
             <li data-aos="fade-up">
               <h3><?php echo file_get_contents("assets/img/checkmark.svg"); ?>Caddy+</h3>
-              <p>18Birdies can recommend clubs while considering wind and course elevation.</p>
+              <p>Hire your own digital caddy with tour-level knowledge, including Plays Like distance and club recommendations.</p>
             </li>
             <li data-aos="fade-up">
-              <h3><?php echo file_get_contents("assets/img/checkmark.svg"); ?>Partner Discounts</h3>
-              <p>Get exclusive deals from 18Birdies partners like Golftec, OneCore, and more!</p>
+              <h3><?php echo file_get_contents("assets/img/checkmark.svg"); ?>AI Coach</h3>
+              <p>Unlimited access to our game-changing AI swing analyzer and personalized drill recommendations.</p>
             </li>
             <li data-aos="fade-up">
               <h3><?php echo file_get_contents("assets/img/checkmark.svg"); ?>Advanced Stats</h3>
-              <p>Get more insight into your game with new charts and custom filters to better understand your progress.</p>
+              <p>Get more insight into your game with advanced charts and custom filters.</p>
             </li>
             <li data-aos="fade-up">
               <h3><?php echo file_get_contents("assets/img/checkmark.svg"); ?>Live Weather Map</h3>
               <p>Get a detailed Doppler radar view of the weather at your location.</p>
             </li>
             <li data-aos="fade-up">
-              <h3><?php echo file_get_contents("assets/img/checkmark.svg"); ?>Advanced GPS</h3>
-              <p>Plan your perfect shot based on elevation, temperature, humidity, wind elevation and weather data.</p>
+              <h3><?php echo file_get_contents("assets/img/checkmark.svg"); ?>Tee Shot Planner</h3>
+              <p>Find out which side of the fairway is the safest play, based on stats from other players in your handicap level.</p>
             </li>
             <li data-aos="fade-up">
-              <h3><?php echo file_get_contents("assets/img/checkmark.svg"); ?>Premium Lesson Plans</h3>
-              <p>Receive world-class instructions from  coaches covering fitness, strategy, technique, mental game, and more!</p>
+              <h3><?php echo file_get_contents("assets/img/checkmark.svg"); ?>Blind Shot Compass</h3>
+              <p>Know where the flag is even when you can't see the green.</p>
             </li>
             <li data-aos="fade-up">
-              <h3><?php echo file_get_contents("assets/img/checkmark.svg"); ?>Shot Tracking</h3>
-              <p>Save a memorable golf shot or to share it with your friends.</p>
+              <h3><?php echo file_get_contents("assets/img/checkmark.svg"); ?>Pro Tips</h3>
+              <p>Get tips on how to play shots from various lies and conditions during your round, when you need it the most.</p>
             </li>
             <li data-aos="fade-up">
-              <h3><?php echo file_get_contents("assets/img/checkmark.svg"); ?>Strokes Gained</h3>
-              <p>Measure your performance on the course against a set of other golfers.</p>
+              <h3><?php echo file_get_contents("assets/img/checkmark.svg"); ?>Strokes Gained Scoring</h3>
+              <p>Tour-level stats that show you where you're losing or gaining strokes.</p>
             </li>
           </ul>
         </div>
@@ -107,22 +107,27 @@ $title = "Premium";
               <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
             </div>
             <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200">
-              <div class="feature-name">Digital Scoring</div>
+              <div class="feature-name">Shot Tracking</div>
               <div class="feature-free"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
               <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
             </div>
             <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200">
-              <div class="feature-name">Stat Tracking</div>
+              <div class="feature-name">Scoring</div>
               <div class="feature-free"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
               <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
             </div>
             <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200">
-              <div class="feature-name">Live Rounds</div>
+              <div class="feature-name">Stats Tracking</div>
               <div class="feature-free"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
               <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
             </div>
             <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200">
-              <div class="feature-name">Social Connectivity</div>
+              <div class="feature-name">Targets</div>
+              <div class="feature-free"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+            </div>
+            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200">
+              <div class="feature-name">Multi-Player Scoring</div>
               <div class="feature-free"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
               <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
             </div>
@@ -132,37 +137,63 @@ $title = "Premium";
               <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
             </div>
             <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200">
-              <div class="feature-name">Tournament</div>
+              <div class="feature-name">Notes</div>
               <div class="feature-free"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
               <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
             </div>
             <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200">
-              <div class="feature-name">Caddy+</div>
+              <div class="feature-name">Low Battery Mode</div>
+              <div class="feature-free"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+            </div>
+            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200">
+              <div class="feature-name">Tournaments</div>
+              <div class="feature-free"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+            </div>
+            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200">
+              <div class="feature-name">Apple Watch</div>
+              <div class="feature-free"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+            </div>
+            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200">
+              <div class="feature-name">Social Connectivity</div>
+              <div class="feature-free"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+            </div>
+
+            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200">
+              <div class="feature-name">Plays Like Distance</div>
               <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
               <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
             </div>
             <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200">
-              <div class="feature-name">Advanced GPS</div>
+              <div class="feature-name">Club Recommendations</div>
               <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
               <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
             </div>
             <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200">
-              <div class="feature-name">Shot Tracking</div>
+              <div class="feature-name">Advanced Stats</div>
               <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
               <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
             </div>
             <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200">
-              <div class="feature-name">Partner Discounts</div>
+              <div class="feature-name">Tee Shot Planner</div>
               <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
               <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
             </div>
             <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200">
-              <div class="feature-name">Premium Lesson Plans</div>
+              <div class="feature-name">Live Coach</div>
               <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
               <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
             </div>
             <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200">
-              <div class="feature-name">Live Weather Plans</div>
+              <div class="feature-name">Hole Insights</div>
+              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
+              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+            </div>
+            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200">
+              <div class="feature-name">Blind Shot Compass</div>
               <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
               <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
             </div>
@@ -171,6 +202,22 @@ $title = "Premium";
               <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
               <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
             </div>
+            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200">
+              <div class="feature-name">Live Weather Map</div>
+              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
+              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+            </div>
+            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200">
+              <div class="feature-name">Apple Watch 'Start Round'</div>
+              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
+              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+            </div>
+            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200">
+              <div class="feature-name">Tee Time Discounts</div>
+              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
+              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+            </div>
+
           </div>
           <!-- <a href="#" class="btn solid">Start your trial today</a> -->
         </div>
