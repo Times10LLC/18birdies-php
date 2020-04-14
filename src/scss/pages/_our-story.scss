@@ -57,6 +57,10 @@ body.our-story {
           z-index: 0;
           background-position: 95% center;
 
+          @media (min-width: 2000px) {
+            background-position: 95% bottom;
+          }
+
           &:after {
             content: "";
             position: absolute;

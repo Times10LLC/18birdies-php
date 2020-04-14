@@ -4,6 +4,9 @@
       <div class="content">
         <h2>Go further with premium membership</h2>
         <p>Achieve more with each and every round you play.</p><p>Go Premium to get full access to our most advanced on-course and improvement features.</p>
+        <div class="mobile-copy">
+          <p>Achieve more with each and every round you play. Go Premium to get full access to our most advanced on-course and improvement features.</p>          
+        </div>
       </div>
       <a href="<?php echo $homeUrl; ?>premium" class="btn solid">Explore Premium</a>
     </div>

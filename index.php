@@ -13,7 +13,7 @@ $title = "Home";
       <div class="block block-hero">
           <div class="content">
             <div data-aos="fade-up" data-aos-delay="600">
-              <h1>Not your average free golf app.</h1>
+              <h1>Play better golf</h1>
               <div class="app-downloads">
                 <a href="<?php echo $googleapplink; ?>" target=_blank><?php echo file_get_contents("assets/img/google-play.svg"); ?></a>
                 <a href="<?php echo $appstorelink; ?>" target=_blank><?php echo file_get_contents("assets/img/app-store.svg"); ?></a>
@@ -25,9 +25,9 @@ $title = "Home";
       <div class="block block-feature with-phone">
         <div class="phone"><img src="assets/img/iphone-transparent.png" width="375px" alt="Phone Border"></div>
         <div class="slider" id="feature-slider">
+          <div class="item"><img src="assets/img/screenshot-gps.jpg" width="325px" alt="GPS"></div>
           <div class="item"><img src="assets/img/screenshot-swing-analyzer.jpg" width="325px" alt="Swing Analyzer"></div>
           <div class="item"><img src="assets/img/screenshot-stats.jpg" width="325px" alt="Stats"></div>
-          <div class="item"><img src="assets/img/screenshot-gps.jpg" width="325px" alt="GPS"></div>
         </div>
         <div class="content">
           <div data-aos="fade-up">
@@ -99,28 +99,28 @@ $title = "Home";
             <div class="slider" id="reviews-slider">
               <div class="review">
                 <blockquote>
-                  <img src="assets/img/user.png" alt="Arthur Hanson">
+                  <img src="assets/img/user-generic.png" alt="Arthur Hanson">
                   <p>I got the most out of my game with 18Birdies GPS, tee times, scoring, stats and on-demand golf content. I absolutely love it. Thank you 18Birdies</p>
                   <footer><cite>Arthur Hanson</cite></footer>
                 </blockquote>
               </div>
               <div class="review">
                 <blockquote>
-                  <img src="assets/img/user.png" alt="Arthur Hanson">
+                  <img src="assets/img/user-generic.png" alt="Arthur Hanson">
                   <p>I got the most out of my game with 18Birdies GPS, tee times, scoring, stats and on-demand golf content. I absolutely love it. Thank you 18Birdies</p>
                   <footer><cite>Arthur Hanson</cite></footer>
                 </blockquote>
               </div>
               <div class="review">
                 <blockquote>
-                  <img src="assets/img/user.png" alt="Arthur Hanson">
+                  <img src="assets/img/user-generic.png" alt="Arthur Hanson">
                   <p>I got the most out of my game with 18Birdies GPS, tee times, scoring, stats and on-demand golf content. I absolutely love it. Thank you 18Birdies</p>
                   <footer><cite>Arthur Hanson</cite></footer>
                 </blockquote>
               </div>
               <div class="review">
                 <blockquote>
-                  <img src="assets/img/user.png" alt="Arthur Hanson">
+                  <img src="assets/img/user-generic.png" alt="Arthur Hanson">
                   <p>I got the most out of my game with 18Birdies GPS, tee times, scoring, stats and on-demand golf content. I absolutely love it. Thank you 18Birdies</p>
                   <footer><cite>Arthur Hanson</cite></footer>
                 </blockquote>
@@ -131,15 +131,29 @@ $title = "Home";
         </div>
       </div>
 
-      <div class="block block-feature connect">
-        <div class="image">
-          <img src="assets/img/connect.png" alt="Man golfing">
-        </div>
+      <div class="block block-hero-interior">
         <div class="content">
-          <div data-aos="fade-up" data-aos-delay="200">
-            <h2>Join the community</h2>
-            <p>Connect with other golfers, compare stats and compete in tournaments, no matter where you are in the world.</p>
-            <a href="#" class="btn solid">See More</a>
+          <div data-aos="fade-up">
+            <h2>Host a tournament</h2>
+            <p>We've made it easier than ever to run your own tournament – with registration, live scoring, and more.</p>
+            <a href="#" class="btn solid">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="block block-feature connect">
+        <div class="container">
+          <div class="connect-wrap">
+            <div class="image">
+              <img src="assets/img/connect.png" alt="Man golfing">
+            </div>
+            <div class="content">
+              <div data-aos="fade-up" data-aos-delay="200">
+                <h2>Join the community</h2>
+                <p>Connect with other golfers, compare stats and compete in tournaments, no matter where you are in the world.</p>
+                <a href="#" class="btn solid">See More</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

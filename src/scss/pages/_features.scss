@@ -127,6 +127,12 @@ body.features {
             @media (min-width: 768px) {
               top: -3px;
             }
+            @media (min-width: 2000px) {
+              svg {
+                width: 1800px;
+                height: auto;
+              }
+            }
 
             svg {
               opacity: 0.02;

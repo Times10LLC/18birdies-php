@@ -74,7 +74,7 @@ $title = "Features";
       <div class="block block-feature exercises">
         <div data-aos="fade-up" style="position:relative;z-index:2;">
           <div class="container content-wrap">
-            <a href="https://vimeo.com/406351507" class="open-video" title="Open Exercise Video"><?php echo file_get_contents("assets/img/play-button.svg"); ?></a>
+            <a href="https://vimeo.com/407025790" class="open-video" title="Open Exercise Video"><?php echo file_get_contents("assets/img/play-button.svg"); ?></a>
             <div class="inner-content-wrap">
               <div class="content">
                   <span class="category practice-improve"><?php echo file_get_contents("assets/img/practice-improve.svg"); ?>practice and improve</span>

@@ -175,43 +175,6 @@ body.tournaments {
       &.block-hero-interior {
         background-image: url("../img/ai-coach-background.png");
         background-size: cover;
-        position: relative;
-
-        &:before {
-          content: " ";
-          background-color: black;
-          opacity: 0.3;
-          position: absolute;
-          top: 0;
-          bottom: 0;
-          right: 0;
-          left: 0;
-        }
-
-        .step {
-          margin: 0 auto 15px;
-        }
-
-        .content {
-          padding: 6rem 2rem;
-          @media (min-width: 768px) {
-            padding: 16rem 0;
-          }
-          text-align: center;
-
-          h2 {
-            margin: 0 auto;
-            max-width: 400px;
-            color: white;
-          }
-
-          p {
-            margin: 0 auto;
-            max-width: 360px;
-            color: white;
-            padding-bottom: 0;
-          }
-        }
       }
 
       &.block-quotes {

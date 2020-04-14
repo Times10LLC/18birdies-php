@@ -26,6 +26,7 @@ $title = "Premium";
           <div class="plans">
             <a href="#" class="plan orange-bg">
               <p>14 days free</p>
+              <p class="copy">Lock in this deal from day one of your membership.</p>
               <div class="bottom-wrap">
                 <div class="price">$99.99 <small>/ year</small></div>
                 <div class="icon"><?php echo file_get_contents("assets/img/flag.svg"); ?></div>
@@ -34,6 +35,7 @@ $title = "Premium";
             </a>
             <a href="#" class="plan">
               <p>7 days free</p>
+              <p class="copy">Enjoy the flexibility of a monthly membership with full access to our most advanced features.</p>
               <div class="bottom-wrap">
                 <div class="price">$9.99 <small>/ month</small></div>
                 <div class="icon"><?php echo file_get_contents("assets/img/trophy.svg"); ?></div>
@@ -42,6 +44,7 @@ $title = "Premium";
             </a>
             <a href="#" class="plan">
               <p>no trial period</p>
+              <p class="copy">Even more flexibility for those who are looking to give our Premium features a try.</p>
               <div class="bottom-wrap">
                 <div class="price">$2.99 <small>/ week</small></div>
                 <div class="icon"><?php echo file_get_contents("assets/img/crossed-clubs.svg"); ?></div>

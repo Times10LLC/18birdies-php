@@ -73,7 +73,7 @@ $title = "AI Coach";
                     <p>Absolutely blownaway, beyond my expectations. It’s a holy shit wow. The product itself. The look. The seamless and ease of use.</p>
                   </div>
                   <footer>
-                    <img src="assets/img/user.png" alt="Arthur Hanson">
+                    <img src="assets/img/user-generic.png" alt="Arthur Hanson">
                     <cite>Arthur Hanson</cite>
                   </footer>
                 </blockquote>
@@ -85,7 +85,7 @@ $title = "AI Coach";
                     <p>It's amazing – 10/10. That you can do this automatically is pretty amazing.</p>
                   </div>
                   <footer>
-                    <img src="assets/img/user.png" alt="Arthur Hanson">
+                    <img src="assets/img/user-generic.png" alt="Arthur Hanson">
                     <cite>Arthur Hanson</cite>
                   </footer>
                 </blockquote>
@@ -97,7 +97,7 @@ $title = "AI Coach";
                     <p>Absolutely blown away, beyond my expectations. It’s a holy shit wow. The product itself. The look. The seamless and ease of use.</p>
                   </div>
                   <footer>
-                    <img src="assets/img/user.png" alt="Arthur Hanson">
+                    <img src="assets/img/user-generic.png" alt="Arthur Hanson">
                     <cite>Arthur Hanson</cite>
                   </footer>
                 </blockquote>
@@ -109,7 +109,7 @@ $title = "AI Coach";
                     <p>It's amazing – 10/10. That you can do this automatically is pretty amazing.</p>
                   </div>
                   <footer>
-                    <img src="assets/img/user.png" alt="Arthur Hanson">
+                    <img src="assets/img/user-generic.png" alt="Arthur Hanson">
                     <cite>Arthur Hanson</cite>
                   </footer>
                 </blockquote>
@@ -121,7 +121,7 @@ $title = "AI Coach";
                     <p>Absolutely blown away, beyond my expectations. It’s a holy shit wow. The product itself. The look. The seamless and ease of use.</p>
                   </div>
                   <footer>
-                    <img src="assets/img/user.png" alt="Arthur Hanson">
+                    <img src="assets/img/user-generic.png" alt="Arthur Hanson">
                     <cite>Arthur Hanson</cite>
                   </footer>
                 </blockquote>
@@ -133,7 +133,7 @@ $title = "AI Coach";
                     <p>It's amazing – 10/10. That you can do this automatically is pretty amazing.</p>
                   </div>
                   <footer>
-                    <img src="assets/img/user.png" alt="Arthur Hanson">
+                    <img src="assets/img/user-generic.png" alt="Arthur Hanson">
                     <cite>Arthur Hanson</cite>
                   </footer>
                 </blockquote>
@@ -145,7 +145,7 @@ $title = "AI Coach";
                     <p>Absolutely blown away, beyond my expectations. It’s a holy shit wow. The product itself. The look. The seamless and ease of use.</p>
                   </div>
                   <footer>
-                    <img src="assets/img/user.png" alt="Arthur Hanson">
+                    <img src="assets/img/user-generic.png" alt="Arthur Hanson">
                     <cite>Arthur Hanson</cite>
                   </footer>
                 </blockquote>
@@ -157,7 +157,7 @@ $title = "AI Coach";
                     <p>It's amazing – 10/10. That you can do this automatically is pretty amazing.</p>
                   </div>
                   <footer>
-                    <img src="assets/img/user.png" alt="Arthur Hanson">
+                    <img src="assets/img/user-generic.png" alt="Arthur Hanson">
                     <cite>Arthur Hanson</cite>
                   </footer>
                 </blockquote>

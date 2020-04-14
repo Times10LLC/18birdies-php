@@ -28,7 +28,8 @@ var main = {
         main.feed();
         main.press();
 
-        console.log(main.detect());
+        // console.log(main.detect());
+
         AOS.init({
           delay: 200,
           duration: 600
@@ -87,7 +88,7 @@ var main = {
           speed: 500,
           // fixedWidth: 100,
           autoplayButtonOutput: false,
-          autoplay: false,
+          autoplay: true,
           mouseDrag: true,
           swipeAngle: false,
           gutter: 0,
@@ -144,7 +145,7 @@ var main = {
         speed: 500,
         // fixedWidth: 100,
         autoplayButtonOutput: false,
-        autoplay: false,
+        autoplay: true,
         mouseDrag: true,
         swipeAngle: false,
         gutter: 40,
@@ -163,7 +164,7 @@ var main = {
           edgePadding: 50,
           // fixedWidth: 100,
           autoplayButtonOutput: false,
-          autoplay: false,
+          autoplay: true,
           mouseDrag: true,
           swipeAngle: false,
           gutter: 30,
@@ -200,11 +201,11 @@ var main = {
           nav: true,
           navPosition: 'bottom',
           items: 1,
-          speed: 500,
+          speed: 700,
           edgePadding: 50,
           // fixedWidth: 100,
           autoplayButtonOutput: false,
-          autoplay: false,
+          autoplay: true,
           mouseDrag: true,
           swipeAngle: false,
           gutter: 30,
