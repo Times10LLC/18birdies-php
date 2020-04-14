@@ -4,7 +4,6 @@ install dependencies:
 
 ```
 npm install
-yarn install
 composer install
 ```
 
