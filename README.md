@@ -3,5 +3,5 @@
 ```
 npm install
 yarn install
-
+composer install
 ```
