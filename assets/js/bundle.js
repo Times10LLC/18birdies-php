@@ -20,8 +20,9 @@ var main = {
     init: function() {
         console.log("Init");
         main.jobs();
-        if($("#feature-slider").length > 0){
+        if($("body").hasClass("home")){
           main.slider();
+          main.reviews();
         }
         main.nav();
         main.quotes();
@@ -53,6 +54,47 @@ var main = {
       if(navigator.platform.indexOf("Win")!=-1) OSName="Windows";
 
       return OSName;
+    },
+    feed: function(){
+      if($("#ig-feed").length > 0){
+        var feed = tns({
+          container: '#ig-feed',
+          controls: false,
+          nav: true,
+          navPosition: 'bottom',
+          items: 1,
+          speed: 700,
+          edgePadding: 50,
+          // fixedWidth: 100,
+          autoplayButtonOutput: false,
+          autoplay: true,
+          mouseDrag: true,
+          swipeAngle: false,
+          gutter: 30,
+          // center: true,
+          slideBy: 1,
+          navAsThumbnails: true,
+          preventScrollOnTouch: 'auto',
+          responsive: {
+            340: {
+              edgePadding: 75
+            },
+            768: {
+              items: 2,
+              edgePadding: 150
+            },
+            1024: {
+              items: 3
+            },
+            1200: {
+              items: 4
+            },
+            2000: {
+              items: 6
+            }
+          }
+        });
+      }
     },
     jobs: function() {
       $(".position h3").click(function() {
@@ -116,41 +158,6 @@ var main = {
           }
         });
       };
-
-    },
-    slider: function(){
-      var slider = tns({
-        container: '#feature-slider',
-        controls: false,
-        nav: true,
-        items: 1,
-        speed: 1000,
-        // fixedWidth: 100,
-        autoplayButtonOutput: false,
-        mode: 'gallery',
-        autoplay: true,
-        mouseDrag: false,
-        swipeAngle: false,
-        gutter: 40,
-        preventScrollOnTouch: 'auto',
-        touch: false
-      });
-
-      var reviews = tns({
-        container: '#reviews-slider',
-        controls: false,
-        nav: true,
-        navPosition: 'bottom',
-        items: 1,
-        speed: 500,
-        // fixedWidth: 100,
-        autoplayButtonOutput: false,
-        autoplay: true,
-        mouseDrag: true,
-        swipeAngle: false,
-        gutter: 40,
-        preventScrollOnTouch: 'auto'
-      });
     },
     quotes: function(){
       if($("body").hasClass("ai-coach")){
@@ -193,46 +200,40 @@ var main = {
         });
       }
     },
-    feed: function(){
-      if($("#ig-feed").length > 0){
-        var feed = tns({
-          container: '#ig-feed',
-          controls: false,
-          nav: true,
-          navPosition: 'bottom',
-          items: 1,
-          speed: 700,
-          edgePadding: 50,
-          // fixedWidth: 100,
-          autoplayButtonOutput: false,
-          autoplay: true,
-          mouseDrag: true,
-          swipeAngle: false,
-          gutter: 30,
-          // center: true,
-          slideBy: 1,
-          navAsThumbnails: true,
-          preventScrollOnTouch: 'auto',
-          responsive: {
-            340: {
-              edgePadding: 75
-            },
-            768: {
-              items: 2,
-              edgePadding: 150
-            },
-            1024: {
-              items: 3
-            },
-            1200: {
-              items: 4
-            },
-            2000: {
-              items: 6
-            }
-          }
-        });
-      }
+    reviews: function(){
+      var reviews = tns({
+        container: '#reviews-slider',
+        controls: false,
+        nav: true,
+        navPosition: 'bottom',
+        items: 1,
+        speed: 500,
+        // fixedWidth: 100,
+        autoplayButtonOutput: false,
+        autoplay: true,
+        mouseDrag: true,
+        swipeAngle: false,
+        gutter: 40,
+        preventScrollOnTouch: 'auto'
+      });
+    },
+    slider: function(){
+      var slider = tns({
+        container: '#feature-slider',
+        controls: false,
+        nav: true,
+        items: 1,
+        speed: 1000,
+        // fixedWidth: 100,
+        autoplayButtonOutput: false,
+        mode: 'gallery',
+        autoplay: true,
+        mouseDrag: false,
+        swipeAngle: false,
+        gutter: 40,
+        preventScrollOnTouch: 'auto',
+        touch: false
+      });
     }
 };
 

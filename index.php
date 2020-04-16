@@ -99,26 +99,26 @@ $title = "Home";
             <div class="slider" id="reviews-slider">
               <div class="review">
                 <blockquote>
-                  <p>I got the most out of my game with 18Birdies GPS, tee times, scoring, stats and on-demand golf content. I absolutely love it. Thank you 18Birdies</p>
-                  <footer><cite>Arthur Hanson</cite></footer>
+                  <p>I've tried a few gps apps and 18Birdies is my favourite. It has the nicest interface for planning your shot with decently high resolution images of the holes. I also enjoy the scorecard and stat tracking after every hole, giving you an idea of your strengths and weaknesses after a round. It does everything I want it to do. Wholly recommend.</p>
+                  <footer><cite>Luke MacDonald</cite></footer>
                 </blockquote>
               </div>
               <div class="review">
                 <blockquote>
-                  <p>I got the most out of my game with 18Birdies GPS, tee times, scoring, stats and on-demand golf content. I absolutely love it. Thank you 18Birdies</p>
-                  <footer><cite>Arthur Hanson</cite></footer>
+                  <p>This golf app has all of the necessary information/tools to make the best choice to play your best! The interface is very intuitive and easy to keep track of your entire game without taking you 'out of the mental golf zone' of staying focus on the task at hand. After more than 50 posted rounds, I can absolutely recommend that 18Birdies is worth every cent to purchase to use all of the features!</p>
+                  <footer><cite>Jim Coffing</cite></footer>
                 </blockquote>
               </div>
               <div class="review">
                 <blockquote>
-                  <p>I got the most out of my game with 18Birdies GPS, tee times, scoring, stats and on-demand golf content. I absolutely love it. Thank you 18Birdies</p>
-                  <footer><cite>Arthur Hanson</cite></footer>
+                  <p>Best app on the market. Haven't tried the premium version but the free version is phenomenal. Thank you for making it easy to track my shots and rounds so I know how I'm progressing as a golfer.</p>
+                  <footer><cite>Weston Willard</cite></footer>
                 </blockquote>
               </div>
               <div class="review">
                 <blockquote>
-                  <p>I got the most out of my game with 18Birdies GPS, tee times, scoring, stats and on-demand golf content. I absolutely love it. Thank you 18Birdies</p>
-                  <footer><cite>Arthur Hanson</cite></footer>
+                  <p>Who needs a range finder when 18Birdies app does that for you, I get a kick out of seeing my friends bust out their overly priced range finders and it be spot on with the app. 2 HUGE THUMBS UP</p>
+                  <footer><cite>Julio Aluiso</cite></footer>
                 </blockquote>
               </div>
             </div>

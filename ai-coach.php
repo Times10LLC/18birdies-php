@@ -73,11 +73,32 @@ $title = "AI Coach";
                 <blockquote>
                   <div>
                     <?php echo file_get_contents("assets/img/quote.svg"); ?>
-                    <p>Absolutely blownaway, beyond my expectations. It’s a holy shit wow. The product itself. The look. The seamless and ease of use.</p>
+                    <p>I'm loving the new swing analyzer feature 18birdies just added! Same results with Golftec. Wasted $500 got the same feedback lol</p>
                   </div>
                   <footer>
-                    <img src="assets/img/user-generic.png" alt="Arthur Hanson">
-                    <cite>Arthur Hanson</cite>
+                    <cite>David Bly</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="quote">
+                <blockquote>
+                  <div>
+                    <?php echo file_get_contents("assets/img/quote.svg"); ?>
+                    <p>The AI Coach is awesome. Really love it and the simple drills. Also appreciate the psychological aspect of “why it works”.</p>
+                  </div>
+                  <footer>
+                    <cite>Trish Gregovich</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="quote">
+                <blockquote>
+                  <div>
+                    <?php echo file_get_contents("assets/img/quote.svg"); ?>
+                    <p>Absolutely blown away, beyond my expectations. It’s a holy shit – wow. The product itself. The look. The seamless and ease of use.</p>
+                  </div>
+                  <footer>
+                    <cite>Adam Hertzog</cite>
                   </footer>
                 </blockquote>
               </div>
@@ -88,83 +109,39 @@ $title = "AI Coach";
                     <p>It's amazing – 10/10. That you can do this automatically is pretty amazing.</p>
                   </div>
                   <footer>
-                    <img src="assets/img/user-generic.png" alt="Arthur Hanson">
-                    <cite>Arthur Hanson</cite>
+                    <cite>Mike Rosenbaum</cite>
                   </footer>
                 </blockquote>
               </div>
-              <div class="quote">
+
+              <!-- repeated on purpose to enable loop, replace with more reviews -->
+
+              <div class="quote duped">
                 <blockquote>
                   <div>
                     <?php echo file_get_contents("assets/img/quote.svg"); ?>
-                    <p>Absolutely blown away, beyond my expectations. It’s a holy shit wow. The product itself. The look. The seamless and ease of use.</p>
+                    <p>I'm loving the new swing analyzer feature 18birdies just added! Same results with Golftec. Wasted $500 got the same feedback lol</p>
                   </div>
                   <footer>
-                    <img src="assets/img/user-generic.png" alt="Arthur Hanson">
-                    <cite>Arthur Hanson</cite>
+                    <cite>David Bly</cite>
                   </footer>
                 </blockquote>
               </div>
-              <div class="quote">
+              <div class="quote duped">
                 <blockquote>
                   <div>
                     <?php echo file_get_contents("assets/img/quote.svg"); ?>
-                    <p>It's amazing – 10/10. That you can do this automatically is pretty amazing.</p>
+                    <p>The AI Coach is awesome. Really love it and the simple drills. Also appreciate the psychological aspect of “why it works”.</p>
                   </div>
                   <footer>
-                    <img src="assets/img/user-generic.png" alt="Arthur Hanson">
-                    <cite>Arthur Hanson</cite>
+                    <cite>Trish Gregovich</cite>
                   </footer>
                 </blockquote>
               </div>
-              <div class="quote">
-                <blockquote>
-                  <div>
-                    <?php echo file_get_contents("assets/img/quote.svg"); ?>
-                    <p>Absolutely blown away, beyond my expectations. It’s a holy shit wow. The product itself. The look. The seamless and ease of use.</p>
-                  </div>
-                  <footer>
-                    <img src="assets/img/user-generic.png" alt="Arthur Hanson">
-                    <cite>Arthur Hanson</cite>
-                  </footer>
-                </blockquote>
-              </div>
-              <div class="quote">
-                <blockquote>
-                  <div>
-                    <?php echo file_get_contents("assets/img/quote.svg"); ?>
-                    <p>It's amazing – 10/10. That you can do this automatically is pretty amazing.</p>
-                  </div>
-                  <footer>
-                    <img src="assets/img/user-generic.png" alt="Arthur Hanson">
-                    <cite>Arthur Hanson</cite>
-                  </footer>
-                </blockquote>
-              </div>
-              <div class="quote">
-                <blockquote>
-                  <div>
-                    <?php echo file_get_contents("assets/img/quote.svg"); ?>
-                    <p>Absolutely blown away, beyond my expectations. It’s a holy shit wow. The product itself. The look. The seamless and ease of use.</p>
-                  </div>
-                  <footer>
-                    <img src="assets/img/user-generic.png" alt="Arthur Hanson">
-                    <cite>Arthur Hanson</cite>
-                  </footer>
-                </blockquote>
-              </div>
-              <div class="quote">
-                <blockquote>
-                  <div>
-                    <?php echo file_get_contents("assets/img/quote.svg"); ?>
-                    <p>It's amazing – 10/10. That you can do this automatically is pretty amazing.</p>
-                  </div>
-                  <footer>
-                    <img src="assets/img/user-generic.png" alt="Arthur Hanson">
-                    <cite>Arthur Hanson</cite>
-                  </footer>
-                </blockquote>
-              </div>
+
+              <!-- end duped reviews -->
+
+
             </div>
           </div>
         </div>
