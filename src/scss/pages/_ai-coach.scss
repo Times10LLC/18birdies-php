@@ -175,6 +175,12 @@ body.tournaments {
       &.block-hero-interior {
         background-image: url("../img/ai-coach-background.png");
         background-size: cover;
+
+        .content {
+          h2 {
+            max-width: 350px;
+          }
+        }
       }
 
       &.block-quotes {

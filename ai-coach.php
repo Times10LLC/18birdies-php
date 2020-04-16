@@ -43,7 +43,7 @@ $title = "AI Coach";
         <div class="content">
           <div data-aos="fade-up">
             <div class="step"><span>02</span></div>
-            <h2>See exactly what you need to work on to improve.</h2>
+            <h2>See what you need to work on to improve</h2>
             <p>The AI Coach will show you what your strengths are, and exactly where you need to improve.</p>
           </div>
         </div>
