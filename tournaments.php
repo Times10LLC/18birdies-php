@@ -48,12 +48,12 @@ $title = "Tournaments";
           <li data-aos="fade-up">
             <?php echo file_get_contents("assets/img/social-feed.svg"); ?>
             <h3>Social Feed</h3>
-            <p>Message players directly via app or by email.</p>
+            <p>Players can share photos and banter using a closed banter social feed.</p>
           </li>
           <li data-aos="fade-up">
             <?php echo file_get_contents("assets/img/messaging.svg"); ?>
             <h3>Messaging</h3>
-            <p>Players can share photos and banter using a closed banter social feed.</p>
+            <p>Message players directly via app or by email.</p>
           </li>
         </ul>
       </div>
