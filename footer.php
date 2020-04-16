@@ -5,7 +5,7 @@
         <h2>Go further with premium membership</h2>
         <p>Achieve more with each and every round you play.</p><p>Go Premium to get full access to our most advanced on-course and improvement features.</p>
         <div class="mobile-copy">
-          <p>Achieve more with each and every round you play. Go Premium to get full access to our most advanced on-course and improvement features.</p>          
+          <p>Achieve more with each and every round you play. Go Premium to get full access to our most advanced on-course and improvement features.</p>
         </div>
       </div>
       <a href="<?php echo $homeUrl; ?>premium" class="btn solid">Explore Premium</a>
@@ -33,32 +33,31 @@
       <div class="menu-content">
         <ul id="menu-footer-menu" class="">
           <li>
-            <a href="#">Company</a>
+            <a href="<?php echo $homeUrl; ?>company">Company</a>
             <ul class="sub-menu">
-            	<li><a href="<?php echo $homeUrl;?>our-story">Our Story</a></li>
-            	<li><a href="https://shop.18birdies.com">Shop</a></li>
-            	<li><a href="#">Press</a></li>
-            	<li><a href="#">Team</a></li>
-            	<li><a href="#">Investors + Advisors</a></li>
-            	<li><a href="#">Careers</a></li>
-            	<li><a href="#">Partners</a></li>
+            	<li><a href="<?php echo $homeUrl;?>company#about-us">About Us</a></li>
+            	<li><a href="<?php echo $homeUrl;?>company#our-mission">Our Mission</a></li>
+              <li><a href="https://shop.18birdies.com">Shop</a></li>
+            	<li><a href="<?php echo $homeUrl;?>company#featured-in">Featured In</a></li>
             </ul>
           </li>
           <li>
             <a href="<?php echo $homeUrl; ?>features">Features</a>
             <ul class="sub-menu">
-            	<li><a href="#">Digital Caddy</a></li>
-            	<li><a href="#">Courses</a></li>
-            	<li><a href="#">Tournaments</a></li>
+            	<li><a href="<?php echo $homeUrl; ?>features">Digital Caddy</a></li>
+            	<li><a href="<?php echo $homeUrl; ?>ai-coach">AI Coach</a></li>
             	<li><a href="<?php echo $homeUrl; ?>community">Community</a></li>
+            	<li><a href="<?php echo $homeUrl; ?>tournaments">Tournaments</a></li>
+            	<li><a href="<?php echo $homeUrl; ?>courses">Tee Times</a></li>
             </ul>
             </li>
           <li>
             <a href="#">Resources</a>
             <ul class="sub-menu">
-            	<li><a href="#">Contact Us</a></li>
+            	<li><a href="<?php echo $homeUrl; ?>/contact">Contact Us</a></li>
             	<li><a href="https://help.18birdies.com/category/42-faqs">FAQs</a></li>
               <li><a href="https://business.18birdies.com/account/login">Log into Business</a></li>
+              <li><a href="<?php echo $homeUrl; ?>/premium">Premium Membership</a></li>
             </ul>
           </li>
         </ul>
@@ -71,7 +70,7 @@
       require "footer-social.php";
       ?>
       <div class="newsletter-signup">
-        <div class="link-header">Newsletter Sign-up</div>
+        <div class="link-header">Sign up to get the latest</div>
         <form method="post">
           <div class="input-group">
             <label for="email"><span class="sr-only">Email Address</span>

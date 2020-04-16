@@ -1,6 +1,6 @@
 <?php
-$page = "our-story";
-$title = "Our Story";
+$page = "company";
+$title = "Company";
 ?>
 
 <!DOCTYPE html>
@@ -19,7 +19,7 @@ $title = "Our Story";
       </div>
     </div>
 
-    <div class="block block-text" id="about">
+    <div class="block block-text" id="about-us">
       <div class="container">
         <div class="content" data-aos="fade-up">
           <h2>About 18birdies</h2>
@@ -30,7 +30,7 @@ $title = "Our Story";
       </div>
     </div>
 
-    <div class="block block-text" id="mission">
+    <div class="block block-text" id="our-mission">
       <div class="container">
         <div class="content" data-aos="fade-up">
           <h2>Our Mission</h2>
@@ -54,7 +54,7 @@ $title = "Our Story";
       </div>
     </div>
 
-    <div class="block block-press">
+    <div class="block block-press" id="featured-in">
       <div class="content" data-aos="fade-up">
         <h2>Featured In</h2>
         <div id="press-slider">

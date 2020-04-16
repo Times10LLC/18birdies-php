@@ -32,7 +32,7 @@ $title = "Home";
         <div class="content">
           <div data-aos="fade-up">
             <h2>The #1 rated digital caddy</h2>
-            <p>Get the precise yardages with the most advanced mobile GPS rangefinder. Caddy+ adjusts for wind speeds, elevation, temperature and rain – powering your rounds with accurate distances, clubs recommendations and more.</p>
+            <p>Get distances with GPS, keep score, track shots, and more – all the tools you need to play your best when you're on the course.</p>
             <a class="btn solid" href="<?php echo $homeUrl; ?>features">See More Features</a>
           </div>
         </div>
@@ -60,7 +60,7 @@ $title = "Home";
               <div class="content-wrap">
                 <h2>Discover courses & book tee times</h2>
                 <p>View course reviews from other golfers, and book your next tee time &mdash; all in one app.</p>
-                <a href="#" class="btn solid">View Courses</a>
+                <a href="<?php echo $homeUrl; ?>courses" class="btn solid">View Courses</a>
               </div>
             </div>
             <div class="image">
@@ -99,28 +99,24 @@ $title = "Home";
             <div class="slider" id="reviews-slider">
               <div class="review">
                 <blockquote>
-                  <img src="assets/img/user-generic.png" alt="Arthur Hanson">
                   <p>I got the most out of my game with 18Birdies GPS, tee times, scoring, stats and on-demand golf content. I absolutely love it. Thank you 18Birdies</p>
                   <footer><cite>Arthur Hanson</cite></footer>
                 </blockquote>
               </div>
               <div class="review">
                 <blockquote>
-                  <img src="assets/img/user-generic.png" alt="Arthur Hanson">
                   <p>I got the most out of my game with 18Birdies GPS, tee times, scoring, stats and on-demand golf content. I absolutely love it. Thank you 18Birdies</p>
                   <footer><cite>Arthur Hanson</cite></footer>
                 </blockquote>
               </div>
               <div class="review">
                 <blockquote>
-                  <img src="assets/img/user-generic.png" alt="Arthur Hanson">
                   <p>I got the most out of my game with 18Birdies GPS, tee times, scoring, stats and on-demand golf content. I absolutely love it. Thank you 18Birdies</p>
                   <footer><cite>Arthur Hanson</cite></footer>
                 </blockquote>
               </div>
               <div class="review">
                 <blockquote>
-                  <img src="assets/img/user-generic.png" alt="Arthur Hanson">
                   <p>I got the most out of my game with 18Birdies GPS, tee times, scoring, stats and on-demand golf content. I absolutely love it. Thank you 18Birdies</p>
                   <footer><cite>Arthur Hanson</cite></footer>
                 </blockquote>

@@ -62,7 +62,7 @@ $title = "Tournaments";
     <div class="block block-feature-phone reverse go-virtual">
       <div class="container">
         <div class="image">
-          <img src="assets/img/connect-around-world.png" alt="Connect with golders around the world.">
+          <img src="assets/img/go-virtual.png" alt="Go Virtual">
         </div>
         <div class="content">
           <div data-aos="fade-up">

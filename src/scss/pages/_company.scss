@@ -1,4 +1,4 @@
-body.our-story {
+body.company {
   main {
     .block {
       &.block-hero {
@@ -50,7 +50,7 @@ body.our-story {
           }
         }
 
-        &#mission {
+        &#our-mission {
           background-image: url("../img/mission.jpg");
           background-size: cover;
           position: relative;

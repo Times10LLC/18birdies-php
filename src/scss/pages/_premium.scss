@@ -59,14 +59,11 @@ body.premium {
           }
 
           p {
-            max-width: 250px;
             margin: 0 auto;
-            padding-top: 30px;
-            padding-bottom: 30px;
+            padding: 30px;
             @media (min-width: 768px) {
-              max-width: 330px;
-              padding-top: 50px;
-              padding-bottom: 50px;
+              max-width: 550px;
+              padding: 50px 0;
             }
           }
         }
@@ -160,8 +157,7 @@ body.premium {
               max-width: 100px;
               font-weight: 700;
               margin: 0;
-              padding-top: 0;
-              padding-bottom: 25px;
+              padding: 0 0 25px;
               line-height: 1;
               letter-spacing: 0;
               font-family: 'Roboto', sans-serif;

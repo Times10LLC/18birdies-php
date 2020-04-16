@@ -89,21 +89,6 @@ $title = "Features";
         </div>
       </div>
 
-      <div class="block block-feature know-your-game">
-        <div class="container">
-          <div class="image">
-            <img src="assets/img/know-your-game.png" alt="AI Coach - Swing Analyzer">
-          </div>
-          <div class="content">
-            <div data-aos="fade-up">
-              <span class="category"><?php echo file_get_contents("assets/img/review-compare.svg"); ?>review and compete</span>
-              <h2>Know your game</h2>
-              <p>Finish each round to know what to work on next.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div class="block block-feature compare-compete">
         <div class="container">
           <div class="content">

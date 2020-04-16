@@ -15,7 +15,10 @@ $title = "AI Coach";
           <div class="content">
             <div data-aos="fade-up">
             <h1>Swing practice will never be the same</h1>
-            <a href="https://vimeo.com/406335986" class="btn solid open-video" title="Open AI Coach Video">Watch Full Video</a>
+            <div class="app-downloads">
+              <a href="<?php echo $googleapplink; ?>" target=_blank><?php echo file_get_contents("assets/img/google-play.svg"); ?></a>
+              <a href="<?php echo $appstorelink; ?>" target=_blank><?php echo file_get_contents("assets/img/app-store.svg"); ?></a>
+            </div>
           </div>
         </div>
       </div>

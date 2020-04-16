@@ -78,7 +78,7 @@ var main = {
       });
     },
     press: function(){
-      if($("body").hasClass("our-story")){
+      if($("body").hasClass("company")){
         var press = tns({
           container: '#press-slider',
           controls: false,

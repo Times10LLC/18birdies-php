@@ -14,7 +14,7 @@ $title = "Community";
     <div class="block block-hero">
         <div class="content">
           <div data-aos="fade-up">
-          <h1>Connect with golfers around the world.</h1>
+          <h1>Connect with golfers around the world</h1>
         </div>
       </div>
     </div>
@@ -26,7 +26,7 @@ $title = "Community";
         </div>
         <div class="content">
           <div data-aos="fade-up">
-            <h2>A community just for golfers.</h2>
+            <h2>A community just for golfers</h2>
             <p>Get swing tips, share equipment advice, and celebrate the win &mdash; both big and small. Whether you're a weekend duffer or a high achiever, all golfers are welcome here.</p>
           </div>
         </div>
@@ -36,7 +36,7 @@ $title = "Community";
     <div class="block block-hero-interior">
       <div class="content">
         <div data-aos="fade-up">
-          <h2>Join a local tournament or anywhere in the world.</h2>
+          <h2>Join a local or virtual tournament</h2>
           <p>Find an upcoming tournament at a course near you, or sign up for a virtual tournament.</p>
           <a class="btn solid" href="#">Learn More</a>
         </div>
@@ -50,7 +50,7 @@ $title = "Community";
         </div>
         <div class="content">
           <div data-aos="fade-up">
-            <h2>Get competitive with multi-player scoring and side games. </h2>
+            <h2>Get competitive with multi-player scoring and side games</h2>
             <a class="btn solid" href="#">Learn More</a>
           </div>
         </div>
