@@ -271,9 +271,10 @@ body {
 
     .legal {
       padding: 1rem 2rem 4rem;
+      flex-direction: column;
+      display: flex;
 
-      @media (min-width: $small-mobile) {
-        display: flex;
+      @media (min-width: 768px) {
         justify-content: space-between;
         align-items: center;
         flex-direction: row;
@@ -283,7 +284,7 @@ body {
         padding: 2rem;
       }
 
-      @media (min-width: 1024px) {
+      @media (min-width: 1200px) {
         padding: 2rem 0;
       }
 
@@ -300,10 +301,16 @@ body {
         }
 
         li {
-          display: inline-block;
+          display: block;
+
+          @media (min-width: 768px) {
+            display: inline-block;
+          }
 
           &:last-of-type {
             a {
+              margin-right: 0;
+
               &:after {
                 content: none;
               }
@@ -322,19 +329,25 @@ body {
           color: rgba(white, 0.6);
           position: relative;
           transition: color 200ms ease-in;
-          margin-right: 10px;
           letter-spacing: 0.4px;
+          line-height: 1.1rem;
+
+          @media (min-width: 768px) {
+            margin-right: 10px;
+          }
 
           &:after {
-            content: "";
-            width: 2px;
-            height: 2px;
-            border-radius: 50%;
-            background-color: rgba(white, 0.6);
-            position: absolute;
-            top: 50%;
-            right: -8px;
-            transform: translateY(-50%);
+            @media (min-width: 768px) {
+              content: "";
+              width: 2px;
+              height: 2px;
+              border-radius: 50%;
+              background-color: rgba(white, 0.6);
+              position: absolute;
+              top: 50%;
+              right: -8px;
+              transform: translateY(-50%);
+            }
           }
 
           &:focus,
@@ -346,10 +359,15 @@ body {
       }
 
       span {
+        display: inline-block;
+        margin-bottom: 10px;
         color: rgba(white, 0.6);
         font-size: 0.75rem;
         letter-spacing: 0.4px;
 
+        @media (min-width: 768px) {
+          margin-bottom: 0;
+        }
       }
     }
   }

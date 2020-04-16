@@ -86,14 +86,13 @@
   <div class="legal-wrap">
     <div class="legal container">
       <span class='copyright'>&copy;<?= date('Y'); ?> 18Birdies, LLC. All Rights Reserved.</span>
-        <?php
-        // wp_nav_menu(array(
-        //   'theme_location' => 'legal',
-        //   'container'  => false,
-        //   'menu_class' => '',
-        //   'fallback_cb' => '')
-        // );
-        ?>
+      <nav>
+        <ul>
+          <li><a href="https://18birdies.com/legal/">Legal Information</a></li>
+          <li><a href="https://18birdies.com/legal/terms/">Terms of Service</a></li>
+          <li><a href="https://18birdies.com/legal/privacy-policy/">Privacy Policy</a></li>
+        </ul>
+      </nav>
     </div>
   </div>
 </footer>
