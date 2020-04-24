@@ -104,6 +104,63 @@ $title = "Premium";
               <div class="feature-free">Free</div>
               <div class="feature-premium">Premium</div>
             </div>
+
+            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
+              <div class="feature-name">Plays Like Distance</div>
+              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
+              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+            </div>
+            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
+              <div class="feature-name">Club Recommendations</div>
+              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
+              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+            </div>
+            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
+              <div class="feature-name">Advanced Stats</div>
+              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
+              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+            </div>
+            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
+              <div class="feature-name">Tee Shot Planner</div>
+              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
+              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+            </div>
+            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
+              <div class="feature-name">Live Coach</div>
+              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
+              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+            </div>
+            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
+              <div class="feature-name">Hole Insights</div>
+              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
+              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+            </div>
+            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
+              <div class="feature-name">Blind Shot Compass</div>
+              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
+              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+            </div>
+            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
+              <div class="feature-name">Strokes Gained</div>
+              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
+              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+            </div>
+            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
+              <div class="feature-name">Live Weather Map</div>
+              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
+              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+            </div>
+            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
+              <div class="feature-name">Apple Watch 'Start Round'</div>
+              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
+              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+            </div>
+            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
+              <div class="feature-name">Tee Time Discounts</div>
+              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
+              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
+            </div>
+            
             <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
               <div class="feature-name">GPS+</div>
               <div class="feature-free"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
@@ -164,63 +221,6 @@ $title = "Premium";
               <div class="feature-free"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
               <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
             </div>
-
-            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
-              <div class="feature-name">Plays Like Distance</div>
-              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
-              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
-            </div>
-            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
-              <div class="feature-name">Club Recommendations</div>
-              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
-              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
-            </div>
-            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
-              <div class="feature-name">Advanced Stats</div>
-              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
-              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
-            </div>
-            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
-              <div class="feature-name">Tee Shot Planner</div>
-              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
-              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
-            </div>
-            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
-              <div class="feature-name">Live Coach</div>
-              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
-              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
-            </div>
-            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
-              <div class="feature-name">Hole Insights</div>
-              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
-              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
-            </div>
-            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
-              <div class="feature-name">Blind Shot Compass</div>
-              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
-              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
-            </div>
-            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
-              <div class="feature-name">Strokes Gained</div>
-              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
-              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
-            </div>
-            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
-              <div class="feature-name">Live Weather Map</div>
-              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
-              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
-            </div>
-            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
-              <div class="feature-name">Apple Watch 'Start Round'</div>
-              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
-              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
-            </div>
-            <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
-              <div class="feature-name">Tee Time Discounts</div>
-              <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
-              <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
-            </div>
-
           </div>
           <!-- <a href="#" class="btn solid">Start your trial today</a> -->
         </div>

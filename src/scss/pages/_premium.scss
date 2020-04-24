@@ -377,7 +377,7 @@ body.premium {
               font-size: 0.75rem;
 
               @media (min-width: 480px) {
-                font-size: 1rem;
+                font-size: 0.85rem;
                 width: 50%;
               }
             }
@@ -407,7 +407,7 @@ body.premium {
               font-size: 0.75rem;
 
               @media (min-width: 480px) {
-                font-size: 1rem;
+                font-size: 0.85rem;
               }
 
               @media (min-width: 480px) {
@@ -420,9 +420,6 @@ body.premium {
             .feature-premium {
               font-weight: 500;
               padding: 15px;
-              @media (min-width: 480px) {
-                padding: 20px;
-              }
             }
 
             &:not(.first) {
