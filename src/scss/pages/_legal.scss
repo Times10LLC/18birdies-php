@@ -1,0 +1,185 @@
+body.business-terms,
+body.legal,
+body.privacy-policy,
+body.terms-of-service {
+  main {
+    .block {
+      &.block-legal-portal {
+        .container {
+          padding: 5rem 0;
+
+          > p {
+            max-width: 750px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.2rem;
+            line-height: 1.6rem;
+            padding: 0 2rem 2rem;
+            color: black;
+
+            a {
+              text-decoration: none;
+              color: $brand-secondary;
+            }
+          }
+        }
+
+        .links-wrap {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+
+        a.link {
+          border-radius: 16px;
+          border: 1px solid #CFCFCF;
+          background-color: white;
+          margin: 1rem 1rem 0;
+          padding: 4rem 2rem;
+          width: 100%;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+          transition: background-color 200ms ease-in-out;
+
+          &:focus,
+          &:hover {
+            background-color: #ececec;
+            transition: background-color 200ms ease-in-out;
+          }
+
+          @media (min-width: 768px) {
+            width: calc(50% - 2rem);
+            height: 450px;
+            padding: 0 2rem;
+            margin-bottom: 1rem;
+          }
+
+          svg {
+            height: 30px;
+            width: auto;
+            display: inline-block;
+            margin-bottom: 8px;
+
+            &:hover {
+              cursor: pointer;
+            }
+
+          }
+
+          p {
+            padding-bottom: 0;
+            max-width: 380px;
+            margin: 0 auto;
+
+            &:hover {
+              cursor: pointer;
+            }
+
+            a,
+            strong {
+              color: $brand-secondary;
+            }
+          }
+
+          h2 {
+            color: black;
+            margin: 0 auto;
+            max-width: 350px;
+            line-height: 1;
+
+            &:hover {
+              cursor: pointer;
+            }
+          }
+
+          &:first-of-type {
+            h2 {
+              width: 275px;
+            }
+          }
+
+          &:nth-of-type(2) {
+            p {
+              max-width: 340px;
+            }
+          }
+        }
+      }
+
+      &.block-content {
+        p {
+          strong {
+            font-weight: 700;
+          }
+
+          a {
+            text-decoration: none;
+            color: $brand-secondary;
+          }
+        }
+
+        p + ol {
+          margin-top: 0;
+        }
+
+        ol {
+          li {
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: #939393;
+          }
+
+          &[start] {
+            padding-left: 0;
+            list-style-position: inside;
+
+            li {
+              color: #000;
+              font-size: 1.2rem;
+            }
+          }
+
+        }
+
+        ul {
+          margin: 0 0 25px;
+
+          li {
+            line-height: 1.5rem;
+            font-size: 1rem;
+            color: #939393;
+          }
+        }
+
+        address {
+          margin: 0 0 25px;
+          font-size: 1rem;
+          line-height: 1.5rem;
+          font-style: normal;
+          color: #939393;
+
+          a {
+            color: $brand-secondary;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+body.terms-of-service {
+  main {
+    .block-hero.legal {
+      .content {
+        h1 {
+          width: auto;
+          max-width: 400px;
+        }
+      }
+    }
+  }
+}

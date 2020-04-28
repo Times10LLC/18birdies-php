@@ -18,6 +18,8 @@ var main = {
           duration: 600
         });
 
+        $(".phone-number-us").mask('(000) 000-0000');
+
         // var player = new Plyr('#player');
         //
         $(".open-video").magnificPopup({

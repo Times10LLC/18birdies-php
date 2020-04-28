@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 body {
@@ -11,7 +13,6 @@ body {
   font-size: 15px;
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
 }
 
 .alt-gothic {
@@ -27,6 +28,13 @@ h5,
 h6 {
   @extend .alt-gothic;
   text-transform: uppercase;
+}
+
+ol,
+ul {
+  li {
+    font-size: 1rem;
+  }
 }
 
 main {
@@ -120,6 +128,15 @@ div.link-header {
   letter-spacing: 0.8px;
   color: white;
   margin-bottom: 1rem;
+}
+
+input {
+  font-size: 13px;
+  border: 0;
+
+  &::placeholder {
+    color: #828282;
+  }
 }
 
 .btn {
@@ -391,6 +408,24 @@ div.link-header {
         }
       }
     }
+
+    &.legal {
+      height: 500px;
+      background-image: url("../img/legal-header.jpg");
+      background-position: center 55%;
+
+      &:after {
+        opacity: 0.4;
+      }
+
+      .content {
+        top: calc(50% + 30px);
+      }
+    }
+  }
+
+  &.block-content {
+    padding: 5rem 2rem;
   }
 
   &.block-video {}

@@ -1,0 +1,44 @@
+body.install {
+  main {
+    .block {
+      &.block-hero {
+        background-image: url("../img/install-bg.jpg");
+
+        .content {
+          top: 40%;
+
+          h1 {
+            margin-bottom: 20px;
+            @media (min-width: 480px) {
+              margin-bottom: 10px;
+            }
+          }
+
+          p {
+            max-width: 320px;
+            margin-top: 20px;
+          }
+
+          form {
+            margin: 0 auto;
+            width: 200px;
+
+            input {
+              padding: 13px 0 15px;
+              width: 100%;
+              display: block;
+              border-radius: 4px;
+              text-align: center;
+            }
+
+            button {
+              margin-top: 10px;
+              display: block;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

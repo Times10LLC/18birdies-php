@@ -15,6 +15,7 @@
     "body-scroll-lock": "^3.0.1",
     "gulp-cssimport": "^7.0.0",
     "gulp-scss-combine": "^1.0.0",
+    "jquery-mask-plugin": "^1.14.16",
     "lodash.template": "^4.5.0",
     "magnific-popup": "^1.1.0",
     "plyr": "^3.5.10",

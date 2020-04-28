@@ -38,7 +38,7 @@ var gulp = require('gulp'),
     imagesBuild: ['./assets/img/'],
     videos: ['./src/video/*.{mp4,mov}'],
     videosBuild: ['./assets/video/'],
-    js: ['./node_modules/jquery/dist/jquery.min.js', './node_modules/tiny-slider/dist/min/tiny-slider.js', './node_modules/plyr/dist/plyr.min.js', './node_modules/body-scroll-lock/lib/bodyScrollLock.min.js', './node_modules/aos/dist/aos.js', './node_modules/magnific-popup/dist/jquery.magnific-popup.min.js', './src/js/*/*.js', './src/js/*.js'],
+    js: ['./node_modules/jquery/dist/jquery.min.js', './node_modules/jquery-mask-plugin/dist/jquery.mask.min.js', './node_modules/tiny-slider/dist/min/tiny-slider.js', './node_modules/plyr/dist/plyr.min.js', './node_modules/body-scroll-lock/lib/bodyScrollLock.min.js', './node_modules/aos/dist/aos.js', './node_modules/magnific-popup/dist/jquery.magnific-popup.min.js', './src/js/*/*.js', './src/js/*.js'],
     jsBuild: './assets/js/', // this is where the minified and concat'd project js build file will go
     styles: ['./src/scss/**/*.scss', './src/scss/partials/*.scss'], // watch these directories
     stylesBuild: './assets/css/' // this is where the minified, compiled css will go

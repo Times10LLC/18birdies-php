@@ -54,10 +54,10 @@
           <li>
             <a href="#">Resources</a>
             <ul class="sub-menu">
-            	<li><a href="<?php echo $homeUrl; ?>/contact">Contact Us</a></li>
+            	<li><a href="<?php echo $homeUrl; ?>contact">Contact Us</a></li>
             	<li><a href="https://help.18birdies.com/category/42-faqs">FAQs</a></li>
               <li><a href="https://business.18birdies.com/account/login">Log into Business</a></li>
-              <li><a href="<?php echo $homeUrl; ?>/premium">Premium Membership</a></li>
+              <li><a href="<?php echo $homeUrl; ?>premium">Premium Membership</a></li>
             </ul>
           </li>
         </ul>
@@ -88,9 +88,9 @@
       <span class='copyright'>&copy;<?= date('Y'); ?> 18Birdies, LLC. All Rights Reserved.</span>
       <nav>
         <ul>
-          <li><a href="https://18birdies.com/legal/">Legal Information</a></li>
-          <li><a href="https://18birdies.com/legal/terms/">Terms of Service</a></li>
-          <li><a href="https://18birdies.com/legal/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="<?php echo $homeUrl; ?>legal">Legal Information</a></li>
+          <li><a href="<?php echo $homeUrl; ?>terms-of-service">Terms of Service</a></li>
+          <li><a href="<?php echo $homeUrl; ?>privacy-policy">Privacy Policy</a></li>
         </ul>
       </nav>
     </div>

@@ -43,7 +43,7 @@
   <div id="top-right-menu">
     <div data-aos="fade">
       <ul>
-        <li><a href="#" class="btn white-border">download</a></li>
+        <li><a href="<?php echo $homeUrl; ?>install" class="btn white-border">download</a></li>
       </ul>
     </div>
   </div>
