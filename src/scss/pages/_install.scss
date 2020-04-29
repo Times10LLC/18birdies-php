@@ -44,6 +44,10 @@ body.install {
           }
         }
       }
+
+      &.block-premium {
+        display: none;
+      }
     }
   }
 }

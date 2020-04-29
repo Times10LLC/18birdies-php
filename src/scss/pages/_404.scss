@@ -13,6 +13,10 @@ body.four-oh-four {
           }
         }
       }
+
+      &.block-premium {
+        display: none;
+      }
     }
   }
 }
