@@ -3,6 +3,7 @@ body.install {
     .block {
       &.block-hero {
         background-image: url("../img/install-bg.jpg");
+        background-position: center top;
 
         .content {
           top: 40%;

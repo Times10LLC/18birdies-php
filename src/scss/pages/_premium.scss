@@ -3,6 +3,7 @@ body.premium {
     .block {
       &.block-hero {
         background-image: url("../img/premium-hero.jpg");
+        height: 500px;
 
         &:after {
           content: "";
@@ -18,7 +19,7 @@ body.premium {
 
         .content {
           z-index: 2;
-          top: 43%;
+          top: calc(50% + 32px);
 
           h1 {
             max-width: 330px;
@@ -29,41 +30,28 @@ body.premium {
       &.block-plans {
         position: relative;
         z-index: 2;
-        padding: 0 2rem 80px;
-        margin-top: -190px;
+        padding: 4rem 2rem;
+        box-shadow: 0 18px 20px 0 rgba(0,0,0,0.10);
+        background-color: white;
         @media (min-width: 1024px) {
-          padding: 0 0 80px;
-          margin-top: -200px;
+          padding: 4rem 0;
         }
 
         .content {
-          box-shadow: 0 18px 20px 0 rgba(0,0,0,0.10);
-          border: 2px solid $brand-tertiary;
-          border-radius: 16px;
-          background-color: white;
           max-width: 900px;
           margin: 0 auto;
           text-align: center;
 
           h2 {
-            padding: 20px 0;
+            padding: 0;
             margin-bottom: 0;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 700;
-            letter-spacing: -1px;
-            background-color: $brand-tertiary;
-            border-radius: 10px 10px 0 0;
-            color: white;
-            font-size: 2rem;
-            text-transform: none;
+            color: $brand-tertiary;
           }
 
           p {
             margin: 0 auto;
-            padding: 30px;
             @media (min-width: 768px) {
               max-width: 550px;
-              padding: 50px 0;
             }
           }
         }
@@ -71,7 +59,7 @@ body.premium {
         .plans {
           display: flex;
           flex-direction: column;
-          padding: 0 30px 30px;
+          padding: 0;
           position: relative;
 
           @media (min-width: 768px) {
@@ -88,7 +76,7 @@ body.premium {
             @media (min-width: 768px) {
               width: calc(100% / 3);
               margin: 0 15px;
-              height: 200px;
+              height: 190px;
             }
             margin: 0 0 15px;
             border-radius: 16px;
@@ -106,6 +94,12 @@ body.premium {
 
             &:last-of-type {
               margin-bottom: 0;
+            }
+
+            &:nth-of-type(2) {
+              p.copy {
+                max-width: 210px;
+              }
             }
 
             .banner {
@@ -195,10 +189,10 @@ body.premium {
       }
 
       &.block-benefits {
-        padding-bottom: 6rem;
+        padding: 6rem 0;
 
         @media (min-width: 768px) {
-          padding-bottom: 8rem;
+          padding: 8rem 0;
         }
 
         .content {

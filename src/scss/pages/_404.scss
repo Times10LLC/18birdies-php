@@ -1,0 +1,18 @@
+body.four-oh-four {
+  main {
+    .block {
+      &.block-hero {
+        background-image: url("../img/four-oh-four.jpg");
+
+        .content {
+          top: 50%;
+
+          h1 {
+            width: auto;
+            max-width: 500px;
+          }
+        }
+      }
+    }
+  }
+}

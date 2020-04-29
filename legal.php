@@ -28,7 +28,7 @@ $title = "Legal";
           </a>
           <a href="<?php echo $homeUrl; ?>business-terms" class="link">
             <div class="content">
-              <?php echo file_get_contents("assets/img/app-tos.svg"); ?>
+              <?php echo file_get_contents("assets/img/business-terms.svg"); ?>
               <h2>18birdies for Business Terms of Service</h2>
               <p>If you're a business customer, the <strong>18Birdies for Business Terms of Service</strong> applies to the business services provided to you by 18Birdies.</p>
             </div>
