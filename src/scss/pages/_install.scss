@@ -5,6 +5,10 @@ body.install {
         background-image: url("../img/install-bg.jpg");
         background-position: center top;
 
+        &:after {
+          opacity: 0.4;
+        }
+
         .content {
           top: 40%;
 
