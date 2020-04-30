@@ -17,7 +17,7 @@ $title = "Legal";
 
     <div class="block block-legal-portal">
       <div class="container">
-        <p>Thank you for taking the time to learn about 18Birdies’ legal and privacy policies. This is where you’ll find information about how we protect your privacy, what you may and may not do with 18Birdies products, and how we use the information you provide us. If you still have questions after reviewing the information here, <a href="<?php echo $homeUrl; ?>contact">please contact us</a>.</p>
+        <p>Thank you for taking the time to learn about 18Birdies’ legal and privacy policies. This is where you’ll find information about how we protect your privacy, what you may and may not do with 18Birdies products, and how we use the information you provide us. If you still have questions after reviewing the information here, <a href="mailto:support@18birdies.com">please contact us</a>.</p>
         <div class="links-wrap">
           <a href="<?php echo $homeUrl; ?>terms-of-service" class="link">
             <div class="content">
