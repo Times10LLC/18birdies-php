@@ -114,6 +114,7 @@ body.home {
 
           span {
             margin-right: -5px;
+            @extend .alt-gothic;
           }
         }
 
@@ -305,7 +306,7 @@ body.home {
 
           h2 {
             font-size: 2.375rem;
-            line-height: 1;
+            line-height: 0.9;
             margin-bottom: 0;
             width: 75%;
             margin: 0 auto;
@@ -317,10 +318,10 @@ body.home {
           }
 
           p {
-            margin-bottom: 10px;
+            margin-bottom: 0;
             width: 260px;
             @media (min-width: $medium-mobile) {
-              margin-bottom: 30px;
+              margin-bottom: 0;
               width: 250px;
             }
           }
