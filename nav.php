@@ -13,7 +13,7 @@
     <li class="<?php if($page == "ai-coach"){ echo "active"; } ?>"><a href="<?php echo $homeUrl; ?>ai-coach">AI Coach</a></li>
     <li class="<?php if($page == "premium"){ echo "active"; } ?>"><a href="<?php echo $homeUrl; ?>premium">Premium</a></li>
     <li class="<?php if($page == "tournaments"){ echo "active"; } ?>"><a href="<?php echo $homeUrl; ?>tournaments">Tournaments</a></li>
-    <li><a href="#">Blog</a></li>
+    <li><a href="<?php echo $homeUrl; ?>clubhouse">Blog</a></li>
     <li><a href="https://help.18birdies.com" target=_blank>Help</a></li>
   </ul>
   <div class="menu-social">
@@ -34,7 +34,7 @@
       <li class="<?php if($page == "ai-coach"){ echo "active"; } ?>"><a href="<?php echo $homeUrl; ?>ai-coach">AI Coach</a></li>
       <li class="<?php if($page == "premium"){ echo "active"; } ?>"><a href="<?php echo $homeUrl; ?>premium">Premium</a></li>
       <li class="<?php if($page == "tournaments"){ echo "active"; } ?>"><a href="<?php echo $homeUrl; ?>tournaments">Tournaments</a></li>
-      <li><a href="#">Blog</a></li>
+      <li><a href="<?php echo $homeUrl; ?>clubhouse">Blog</a></li>
       <li><a href="https://help.18birdies.com" target=_blank>Help</a></li>
     </ul>
     </div>

@@ -52,10 +52,10 @@
             </ul>
             </li>
           <li>
-            <a href="#">Resources</a>
+            <a href="https://help.18birdies.com/">Resources</a>
             <ul class="sub-menu">
-            	<li><a href="<?php echo $homeUrl; ?>contact">Contact Us</a></li>
-            	<li><a href="https://help.18birdies.com/category/42-faqs">FAQs</a></li>
+            	<li><a href="mailto:support@18birdies.com:">Contact Us</a></li>
+            	<li><a href="https://help.18birdies.com/">FAQs</a></li>
               <li><a href="https://business.18birdies.com/account/login">Log into Business</a></li>
               <li><a href="<?php echo $homeUrl; ?>premium">Premium Membership</a></li>
             </ul>

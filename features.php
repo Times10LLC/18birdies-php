@@ -32,7 +32,7 @@ $title = "Features";
             <span class="category"><?php echo file_get_contents("assets/img/play-track.svg"); ?>play and track</span>
             <h2>Always play your best round with the world’s smartest digital caddy</h2>
             <p>Wind speeds, eleveation, temperature, rain. Take the guesswork out of your golf game and power your performance with accurate distances, club recommedations, and more.</p>
-            <a class="btn solid" href="/premium">Discover GPS</a>
+            <a class="btn solid" href="https://18birdies.com/discover-on-course-tools/">Discover GPS</a>
           </div>
         </div>
       </div>

@@ -24,7 +24,7 @@ $title = "Premium";
           <h2>Choose Your Plan</h2>
           <p>Premium Members get access to the most powerful game improvement tools available to golfers &mdash; for both on and off the course.</p>
           <div class="plans">
-            <a href="#" class="plan orange-bg">
+            <div class="plan orange-bg">
               <p>14 days free</p>
               <p class="copy">Lock in this deal from day one of your membership.</p>
               <div class="bottom-wrap">
@@ -32,8 +32,8 @@ $title = "Premium";
                 <div class="icon"><?php echo file_get_contents("assets/img/flag.svg"); ?></div>
               </div>
               <div class="banner">Best Value</div>
-            </a>
-            <a href="#" class="plan">
+            </div>
+            <div class="plan">
               <p>7 days free</p>
               <p class="copy">Enjoy the flexibility of a monthly membership with full access to our most advanced features.</p>
               <div class="bottom-wrap">
@@ -41,15 +41,15 @@ $title = "Premium";
                 <div class="icon"><?php echo file_get_contents("assets/img/trophy.svg"); ?></div>
               </div>
               <div class="banner">Most Popular</div>
-            </a>
-            <a href="#" class="plan">
+            </div>
+            <div class="plan">
               <p>no trial period</p>
               <p class="copy">Even more flexibility for those who are looking to give our Premium features a try.</p>
               <div class="bottom-wrap">
                 <div class="price">$2.99 <small>/ week</small></div>
                 <div class="icon"><?php echo file_get_contents("assets/img/crossed-clubs.svg"); ?></div>
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>
@@ -160,7 +160,7 @@ $title = "Premium";
               <div class="feature-free"><?php echo file_get_contents("assets/img/x.svg"); ?></div>
               <div class="feature-premium"><?php echo file_get_contents("assets/img/check.svg"); ?></div>
             </div>
-            
+
             <div class="feature-compare" data-aos="fade-up" data-aos-offset="-200" data-aos-once="true">
               <div class="feature-name">GPS+</div>
               <div class="feature-free"><?php echo file_get_contents("assets/img/check.svg"); ?></div>

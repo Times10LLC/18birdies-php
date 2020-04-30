@@ -16,7 +16,7 @@ $title = "Tournaments";
           <div data-aos="fade-up">
           <h1>Tournaments made easy</h1>
           <p>The preferred tournament solution for charities, leagues, brands and local organizers.</p>
-          <a class="btn solid" href="#">Try For Free</a>
+          <a class="btn solid" href="https://business.18birdies.com/tournament/free-trial">Try For Free</a>
         </div>
       </div>
     </div>
@@ -69,7 +69,7 @@ $title = "Tournaments";
             <h2>Go Virtual</h2>
             <p>18Birdies virtual tournaments are golf tournaments that players can join from any course, anywhere in the world &mdash; using the 18Birdies app.</p>
             <p>Virtual tournament players have the chance to play golf and connect with other 18Birdies users, post and share content to the Tournament Feed &mdash; and win tons of sweet prizes!</p>
-            <a class="btn solid" href="#">Try for free</a>
+            <a class="btn solid" href="https://business.18birdies.com/tournament/free-trial">Try For Free</a>
           </div>
         </div>
       </div>

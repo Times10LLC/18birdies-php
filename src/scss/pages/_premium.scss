@@ -68,7 +68,7 @@ body.premium {
             margin: 0 -15px;
           }
 
-          a.plan {
+          div.plan {
             display: flex;
             flex-direction: column;
             text-decoration: none;
@@ -86,12 +86,6 @@ body.premium {
             color: white;
             position: relative;
             transition: background-color 200ms ease-in-out;
-
-            &:focus,
-            &:hover {
-              transition: background-color 200ms ease-in-out;
-              background-color: darken($brand-tertiary, 10%);
-            }
 
             &:last-of-type {
               margin-bottom: 0;
@@ -174,11 +168,6 @@ body.premium {
 
             &.orange-bg {
               background-color: $orange;
-
-              &:focus,
-              &:hover {
-                background-color: darken($orange, 10%);
-              }
 
               svg {
                 fill: #b5782e;
