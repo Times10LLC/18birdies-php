@@ -156,7 +156,7 @@ $title = "Home";
 
       <?php
 
-      include "ig-feed.php";
+      // include "ig-feed.php";
 
       ?>
 
